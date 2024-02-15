@@ -4,30 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="Created NavBar">
+    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="Created some component">
       <change afterPath="$PROJECT_DIR$/fonts/AlumniSansCollegiateOne-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/advertising-image.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/courses-img/1_courses-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/courses-img/2_courses-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/courses-img/3_courses-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/intended-for-img/1_image.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/intended-for-img/2_image.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/intended-for-img/3_image.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/intended-for-img/right-sign.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/our-team-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/teachers-img/1_person.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/teachers-img/2_person.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/teachers-img/3_person.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/teachers-img/inst-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/teachers-img/watsapp-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contacts-img/Arrow_right_long.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contacts-img/contacts-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contacts-img/instagramm-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contacts-img/location-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contacts-img/watsapp-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cooperation-img/1_cooperation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cooperation-img/2_cooperation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cooperation-img/2_cooperation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/free-knowledge-img/1_free-knowledge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/free-knowledge-img/2_free-knowledge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/free-knowledge-img/3_free-knowledge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/question/Expand_down_light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/question/Expand_up_light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/teachers-img/inst-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/teachers-img/watsapp-icon.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,11 +71,11 @@
       <recent name="C:\Users\admin\WebstormProjects\daaEnglish" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\contacts-img" />
       <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img" />
-      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\courses-img" />
-      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\teachers-img" />
-      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\intended-for-img" />
-      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\css" />
+      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\question" />
+      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\cooperation-img" />
+      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\free-knowledge-img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,7 +91,9 @@
       <workItem from="1707890534514" duration="5413000" />
       <workItem from="1707898410886" duration="2400000" />
       <workItem from="1707940067965" duration="4342000" />
-      <workItem from="1707944473752" duration="1927000" />
+      <workItem from="1707944473752" duration="2787000" />
+      <workItem from="1707981318887" duration="7680000" />
+      <workItem from="1708010914413" duration="10476000" />
     </task>
     <task id="LOCAL-00001" summary="Created NavBar">
       <option name="closed" value="true" />
@@ -100,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707843053336</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created some component">
+      <option name="closed" value="true" />
+      <created>1707946505579</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707946505579</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created NavBar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created NavBar" />
+    <MESSAGE value="Created some somponent" />
+    <MESSAGE value="Created some component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created some component" />
   </component>
 </project>

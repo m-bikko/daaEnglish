@@ -13,6 +13,12 @@
             "slnt" 0;
 }
 
+.jaldi {
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     height: 100%;
     font-family: "Inter", sans;
@@ -499,6 +505,7 @@ body {
     padding: 15px 30px;
     border: 2px solid #FFC700;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 .courses-item button:hover {
     background-color: inherit;
@@ -513,6 +520,7 @@ body {
     width: 100%;
     background-color: #12182B;
     margin: 0;
+    padding-bottom: 80px;
 }
 .free-knowledge-container {
     width: 90%;
@@ -532,7 +540,6 @@ body {
     line-height: 40px;
     text-align: center;
     color: #fff;
-
 }
 /*.knowledge-free-container {*/
 /*    width: 90%;*/
@@ -544,3 +551,351 @@ body {
 /*.knowledge-free-container p {*/
 /*    color: #fff;*/
 /*}*/
+
+.free-knowledge-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.free-knowledge-item {
+    width: 23%;
+    background-color: #828282;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    border-radius: 50px;
+    overflow: hidden; /* Добавлено для обрезки изображений внутри контейнера */
+    transition: transform 0.5s ease, padding 0.5s ease;
+}
+.free-knowledge-item:hover {
+    transform: scale(1.15);
+    /*padding: 30px 10px 30px 10px;*/
+}
+
+
+.free-knowledge-item img {
+    width: 75%;
+    object-fit: contain;
+    height: 30vh;
+    z-index: 1;
+}
+.free-knowledge-item p{
+    color: black;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: center;
+}
+
+.free-knowledge-item button {
+    width: 40%;
+    color: white;
+    border-radius: 50px;
+    background-color: black;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.free-knowledge-item button:hover{
+    background-color: inherit;
+    color: black;
+}
+
+
+/*Cooperation component*/
+
+.cooperation{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.cooperation-container{
+    width: 80%;
+    margin: auto;
+}
+.cooperation-container h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+.cooperation-container p{
+    width: 70%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #828282;
+}
+
+.cooperation-logos{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.cooperation-logo {
+    width: 40%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Question component*/
+
+.questions {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.questions-container {
+    width: 75%;
+    margin: auto;
+}
+.questions-container h2 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: center;
+    color: #364478;
+}
+
+
+
+.accordion-container {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.accordion {
+    width: 100%;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: inherit;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+
+}
+
+.accordion:after {
+    content: url(../img/question/Expand_down_light.svg);
+}
+
+.active:after {
+    content: url(../img/question/Expand_up_light.svg);
+}
+
+
+/*Contacts component*/
+
+.contacts {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/contacts-img/contacts-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-image: fill 0 linear-gradient(#0001, #000);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.contacts-container {
+    width: 60%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.location-link {
+    width: 100%;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+.location-link h2 {
+    width: 40%;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+
+.location-link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+.location-link a p {
+    font-family: "Jaldi", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    /*letter-spacing: 0.03em;*/
+    color: #fff;
+}
+
+
+
+.link-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.link-item {
+    width: 45%;
+    height: 30vh;
+    background-color: rgba(18, 24, 43, 0.5);
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-item a {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.link-item a:hover {
+    cursor: pointer;
+    background-color: #364478;
+}
+
+
+.link-item a span {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    z-index: 3;
+}
+
+
+.social-box {
+    width: 40%;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.social-box img {
+    width: 50px;
+    object-fit: contain;
+}
+.social-box p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Jaldi", sans-serif;
+    line-height: 32px;
+    letter-spacing: 0.07em;
+    color: #D9D9D9;
+}
+
+
+/*Footer component*/
+
+
+.footer {
+    width: 100%;
+    background-color: #12182B;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-container ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #828282;
+}
+
+.footer-container h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: #FFC700;
+}
+
+
+.logo-info {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding-top: 20px;
+}
+.logo-info .stick {
+    height: 6vh;
+    width: 2px;
+    background-color: #828282;
+}
+
+.logo-info p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: #828282;
+}
