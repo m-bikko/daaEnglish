@@ -48,6 +48,10 @@ a {
     top: 0;
     left: 0;
     width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #12182B;
     z-index: 3;
 }
@@ -58,7 +62,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    /*padding: 1rem 1.5rem;*/
 }
 
 .hamburger {
@@ -107,7 +111,6 @@ a {
         flex-direction: column;
         background-color: #12182B;
         width: 100%;
-        border-radius: 10px;
         text-align: center;
         transition: 0.3s;
         box-shadow:
@@ -169,49 +172,110 @@ a {
 
 .advertising-left {
     width: 50%;
+    height: 60vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+
 }
 
-.advertising-left-text h2{
+.advertising-left {
+}
+.advertising-left h2{
     font-size: 40px;
     font-weight: 400;
     line-height: 50px;
 }
 
 
-.advertising-left-text h2 span{
+.advertising-left h2 span{
     color: #FFC700;
 }
 
-.advertising-left-text p {
+.advertising-left p {
     width: 50%;
     color: gray;
     font-size: 20px;
     font-weight: 500;
+    padding-top: 20px;
 }
 
 .advertising-left button {
-    width: 30%;
-    height: 60px;
+    width: 15vw;
     background-color: #FFC700;
-    border: none;
+    border: 2px solid #FFC700;
     border-radius: 50px;
     font-size: 20px;
     font-weight: 400;
     margin-top: 40px;
+    padding: 20px 0;
+}
+.advertising-left button:hover {
+    background-color: inherit;
+    cursor: pointer;
 }
 
 .advertising-right {
-    width: 70%;
-    height: 60vh;
+    width: 50%;
+    height: 50vh;
     background-image: url(../img/advertising-image.jpg);
+    border-radius: 50px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    -webkit-box-shadow: 0px -78px 92px 0px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px -78px 92px 0px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px -78px 92px 0px rgba(34, 60, 80, 0.2) inset;
 }
 
+@media only screen and (max-width: 1280px) {
+    .advertising-left h2{
+        font-size: 32px;
+        line-height: 30px;
+    }
+    .advertising-left p {
+        width: 70%;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .advertising-left button {
+        width: 50%;
+        font-size: 16px;
+    }
+    .advertising-right {
+        border-radius: 40px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .advertising-content {
+        flex-direction: column;
+    }
+    .advertising-left {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+    }
+    .advertising-right {
+        width: 90%;
+        height: 40vh;
+        border-radius: 30px;
+    }
+    .advertising-left h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .advertising-left p {
+        width: 100%;
+        text-align: center;
+    }
+    .advertising-left button {
+        font-size: 10px;
+    }
+}
 
 /*Intended for component*/
 
@@ -1093,6 +1157,13 @@ a {
 
 
 @media only screen and (max-width: 1280px) {
+    .contacts {
+        height: auto;
+        padding: 40px 0;
+    }
+    .link-list {
+        padding-top: 30px;
+    }
     .location-link a {
         gap: 8px;
     }
@@ -1129,6 +1200,9 @@ a {
     .location-link a p {
         font-size: 12px;
     }
+    .link-item a {
+        padding: 5px 0;
+    }
     .link-item a span {
         font-size: 12px;
     }
@@ -1152,6 +1226,7 @@ a {
     margin: auto;
     display: flex;
     justify-content: space-evenly;
+    padding-top: 20px;
 }
 .footer-container ul {
     list-style: none;
@@ -1182,13 +1257,19 @@ a {
     gap: 20px;
     padding-top: 20px;
 }
-.logo-info .stick {
+
+.logo-info-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-info-container .stick {
     width: 2px;
     background-color: #828282;
     padding: 30px 0;
 }
 
-.logo-info p {
+.logo-info-container p {
     font-size: 15px;
     font-weight: 400;
     line-height: 32px;
@@ -1215,28 +1296,27 @@ a {
         width: 60px;
         object-fit: contain;
     }
-    .logo-info .stick {
+    .logo-info-container .stick {
         padding: 15px 0;
     }
-    .logo-info p {
+    .logo-info-container p {
         font-size: 10px;
     }
 }
 @media only screen and (max-width: 550px){
     .footer-container {
-        width: 80%;
+        width: 95%;
     }
-    .logo-info img {
+    .logo-info-container .stick {
         display: none;
     }
-    .logo-info .stick {
+    .logo-info-container p {
         display: none;
     }
-    .logo-info p {
-        display: none;
+    .footer-container h2 {
+        font-size: 10px;
     }
-    .footer-container {
-        gap: 40px;
-        flex-wrap: wrap;
+    .footer-container ul li a{
+        font-size: 7px;
     }
 }
