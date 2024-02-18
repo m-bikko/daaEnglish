@@ -148,7 +148,7 @@ a {
     padding-bottom: 60px;
 }
 
-.advertising-container {
+.advertising-cont {
     width: 90%;
     margin: auto;
     display: flex;
@@ -205,7 +205,7 @@ a {
 .advertising-img {
     width: 50%;
     height: 60vh;
-    /*background-image: url(../img/advertising-image.jpg);*/
+    background-image: url(../img/advertising-image.jpg);
     border-radius: 50px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -234,7 +234,7 @@ a {
     }
 }
 @media only screen and (max-width: 768px) {
-    .advertising-container {
+    .advertising-cont {
         flex-direction: column;
     }
     .advertising-content {
