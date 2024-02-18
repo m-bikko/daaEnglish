@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="Updated adaptive">
+    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="Updated menu">
       <change afterPath="$PROJECT_DIR$/fonts/AlumniSansCollegiateOne-Regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1708182436083" duration="2928000" />
       <workItem from="1708205443508" duration="19068000" />
       <workItem from="1708248255771" duration="1531000" />
-      <workItem from="1708256324673" duration="3260000" />
+      <workItem from="1708256324673" duration="4459000" />
     </task>
     <task id="LOCAL-00001" summary="Created NavBar">
       <option name="closed" value="true" />
@@ -132,7 +130,31 @@
       <option name="project" value="LOCAL" />
       <updated>1708262308724</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated advertising">
+      <option name="closed" value="true" />
+      <created>1708262694816</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708262694816</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated advertising">
+      <option name="closed" value="true" />
+      <created>1708262791313</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708262791313</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated menu">
+      <option name="closed" value="true" />
+      <created>1708263740308</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708263740308</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +167,8 @@
     <MESSAGE value="Created main page" />
     <MESSAGE value="Added adaptive" />
     <MESSAGE value="Updated adaptive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated adaptive" />
+    <MESSAGE value="Updated advertising" />
+    <MESSAGE value="Updated menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated menu" />
   </component>
 </project>
