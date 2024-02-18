@@ -158,7 +158,8 @@ a {
 
 .advertise-content {
     width: 50%;
-    height: 60vh;
+    /*height: 60vh;*/
+    padding: 40px 0;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -204,11 +205,12 @@ a {
 
 .cont {
     width: 50%;
+    /*padding: 40px 0;*/
 }
 .advertise-img {
     object-fit: contain;
     width: 100%;
-    height: 60vh;
+    /*height: 60vh;*/
     /*background-image: url(../img/advertise-image.png);*/
     /*border-radius: 50px;*/
     /*background-size: contain;*/
