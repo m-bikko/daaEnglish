@@ -4,27 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="Created some component">
+    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="Created main page">
       <change afterPath="$PROJECT_DIR$/fonts/AlumniSansCollegiateOne-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/contacts-img/Arrow_right_long.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/contacts-img/contacts-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/contacts-img/instagramm-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/contacts-img/location-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/contacts-img/watsapp-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cooperation-img/1_cooperation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cooperation-img/2_cooperation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cooperation-img/2_cooperation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/free-knowledge-img/1_free-knowledge.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/free-knowledge-img/2_free-knowledge.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/free-knowledge-img/3_free-knowledge.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/question/Expand_down_light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/question/Expand_up_light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/our-team-img/1_teacher.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/our-team-img/2_teacher.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/our-team-img/3_teacher.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/our-team-img/our-team-inst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/our-team-img/our-team-watsapp.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/teachers-img/inst-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/teachers-img/watsapp-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/our-team-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/our-team-img/our-team-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/teachers-img/1_person.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/teachers-img/2_person.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/teachers-img/3_person.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +65,11 @@
       <recent name="C:\Users\admin\WebstormProjects\daaEnglish" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\our-team-img" />
+      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\teachers-img" />
       <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\contacts-img" />
       <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img" />
       <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\question" />
-      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\cooperation-img" />
-      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\free-knowledge-img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,7 +87,10 @@
       <workItem from="1707940067965" duration="4342000" />
       <workItem from="1707944473752" duration="2787000" />
       <workItem from="1707981318887" duration="7680000" />
-      <workItem from="1708010914413" duration="10476000" />
+      <workItem from="1708010914413" duration="10595000" />
+      <workItem from="1708156439216" duration="18074000" />
+      <workItem from="1708182436083" duration="2928000" />
+      <workItem from="1708205443508" duration="18974000" />
     </task>
     <task id="LOCAL-00001" summary="Created NavBar">
       <option name="closed" value="true" />
@@ -119,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707946505579</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created main page">
+      <option name="closed" value="true" />
+      <created>1708036484274</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708036484275</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +134,7 @@
     <MESSAGE value="Created NavBar" />
     <MESSAGE value="Created some somponent" />
     <MESSAGE value="Created some component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created some component" />
+    <MESSAGE value="Created main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created main page" />
   </component>
 </project>
