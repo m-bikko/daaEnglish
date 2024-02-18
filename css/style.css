@@ -205,7 +205,7 @@ a {
 .advertising-img {
     width: 50%;
     height: 60vh;
-    background-image: url(../img/advertising-image.jpg);
+    /*background-image: url(../img/advertising-image.jpg);*/
     border-radius: 50px;
     background-size: cover;
     background-repeat: no-repeat;
