@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="Updated menu">
+    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="Updated advertise">
       <change afterPath="$PROJECT_DIR$/fonts/AlumniSansCollegiateOne-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/advertise-image.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/advertising-image.JPG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +84,7 @@
       <workItem from="1708205443508" duration="19068000" />
       <workItem from="1708248255771" duration="1531000" />
       <workItem from="1708256324673" duration="4459000" />
+      <workItem from="1708273840530" duration="1483000" />
     </task>
     <task id="LOCAL-00001" summary="Created NavBar">
       <option name="closed" value="true" />
@@ -154,7 +158,47 @@
       <option name="project" value="LOCAL" />
       <updated>1708263740308</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Updated menu">
+      <option name="closed" value="true" />
+      <created>1708273942229</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708273942229</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updated advertising">
+      <option name="closed" value="true" />
+      <created>1708274445547</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708274445547</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated advertising-img">
+      <option name="closed" value="true" />
+      <created>1708274567175</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708274567175</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated advertis">
+      <option name="closed" value="true" />
+      <created>1708274742572</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708274742572</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated advertise">
+      <option name="closed" value="true" />
+      <created>1708275092624</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708275092624</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +213,10 @@
     <MESSAGE value="Updated adaptive" />
     <MESSAGE value="Updated advertising" />
     <MESSAGE value="Updated menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated menu" />
+    <MESSAGE value="updated advertising" />
+    <MESSAGE value="Updated advertising-img" />
+    <MESSAGE value="Updated advertis" />
+    <MESSAGE value="Updated advertise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated advertise" />
   </component>
 </project>
