@@ -140,15 +140,15 @@ a {
     }
 }
 
-/*Advertising component*/
+/*advertiseing component*/
 
-.advertis{
+.advertise{
     width: 100%;
     margin-top: 95px;
     padding-bottom: 60px;
 }
 
-.advertis-cont {
+.advertise-cont {
     width: 90%;
     margin: auto;
     display: flex;
@@ -156,7 +156,7 @@ a {
     align-items: center;
 }
 
-.advertis-content {
+.advertise-content {
     width: 50%;
     height: 60vh;
     margin: auto;
@@ -166,20 +166,20 @@ a {
 
 }
 
-.advertis-content {
+.advertise-content {
 }
-.advertis-content h2{
+.advertise-content h2{
     font-size: 40px;
     font-weight: 400;
     line-height: 50px;
 }
 
 
-.advertis-content h2 span{
+.advertise-content h2 span{
     color: #FFC700;
 }
 
-.advertis-content p {
+.advertise-content p {
     width: 50%;
     color: gray;
     font-size: 20px;
@@ -187,7 +187,7 @@ a {
     padding-top: 20px;
 }
 
-.advertis-content button {
+.advertise-content button {
     width: 15vw;
     background-color: #FFC700;
     border: 2px solid #FFC700;
@@ -197,12 +197,12 @@ a {
     margin-top: 40px;
     padding: 20px 0;
 }
-.advertis-content button:hover {
+.advertise-content button:hover {
     background-color: inherit;
     cursor: pointer;
 }
 
-.advertis-img {
+.advertise-img {
     width: 50%;
     height: 60vh;
     background-image: url(../img/advertising-image.jpg);
@@ -216,28 +216,28 @@ a {
 }
 
 @media only screen and (max-width: 1280px) {
-    .advertis-content h2{
+    .advertise-content h2{
         font-size: 32px;
         line-height: 30px;
     }
-    .advertis-content p {
+    .advertise-content p {
         width: 70%;
         font-size: 16px;
         line-height: 20px;
     }
-    .advertis-content button {
+    .advertise-content button {
         width: 50%;
         font-size: 16px;
     }
-    .advertis-img {
+    .advertise-img {
         border-radius: 40px;
     }
 }
 @media only screen and (max-width: 768px) {
-    .advertis-cont {
+    .advertise-cont {
         flex-direction: column;
     }
-    .advertis-content {
+    .advertise-content {
         width: 90%;
         height: auto;
         display: flex;
@@ -246,18 +246,18 @@ a {
         align-items: center;
         padding: 40px 0;
     }
-    .advertis-content h2{
+    .advertise-content h2{
         font-size: 24px;
         text-align: center;
     }
-    .advertis-content p {
+    .advertise-content p {
         width: 100%;
         text-align: center;
     }
-    .advertis-content button {
+    .advertise-content button {
         font-size: 10px;
     }
-    .advertis-img {
+    .advertise-img {
         width: 90%;
         height: 40vh;
         border-radius: 30px;
