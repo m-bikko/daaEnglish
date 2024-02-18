@@ -153,46 +153,38 @@ a {
     padding-bottom: 60px;
 }
 
-.advertising>div {
-    max-width: 90%;
+.advertising-container {
+    width: 90%;
     margin: auto;
-}
-
-.advertising-content{
-    width: 40%;
-    margin: auto;
-}
-
-.advertising-content{
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.advertising-left {
+.advertising-content {
     width: 50%;
     height: 60vh;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
 
-.advertising-left {
+.advertising-content {
 }
-.advertising-left h2{
+.advertising-content h2{
     font-size: 40px;
     font-weight: 400;
     line-height: 50px;
 }
 
 
-.advertising-left h2 span{
+.advertising-content h2 span{
     color: #FFC700;
 }
 
-.advertising-left p {
+.advertising-content p {
     width: 50%;
     color: gray;
     font-size: 20px;
@@ -200,7 +192,7 @@ a {
     padding-top: 20px;
 }
 
-.advertising-left button {
+.advertising-content button {
     width: 15vw;
     background-color: #FFC700;
     border: 2px solid #FFC700;
@@ -210,14 +202,14 @@ a {
     margin-top: 40px;
     padding: 20px 0;
 }
-.advertising-left button:hover {
+.advertising-content button:hover {
     background-color: inherit;
     cursor: pointer;
 }
 
-.advertising-right {
+.advertising-img {
     width: 50%;
-    height: 50vh;
+    height: 60vh;
     background-image: url(../img/advertising-image.jpg);
     border-radius: 50px;
     background-size: cover;
@@ -229,28 +221,28 @@ a {
 }
 
 @media only screen and (max-width: 1280px) {
-    .advertising-left h2{
+    .advertising-content h2{
         font-size: 32px;
         line-height: 30px;
     }
-    .advertising-left p {
+    .advertising-content p {
         width: 70%;
         font-size: 16px;
         line-height: 20px;
     }
-    .advertising-left button {
+    .advertising-content button {
         width: 50%;
         font-size: 16px;
     }
-    .advertising-right {
+    .advertising-img {
         border-radius: 40px;
     }
 }
 @media only screen and (max-width: 768px) {
-    .advertising-content {
+    .advertising-container {
         flex-direction: column;
     }
-    .advertising-left {
+    .advertising-content {
         width: 90%;
         height: auto;
         display: flex;
@@ -259,21 +251,21 @@ a {
         align-items: center;
         padding: 40px 0;
     }
-    .advertising-right {
-        width: 90%;
-        height: 40vh;
-        border-radius: 30px;
-    }
-    .advertising-left h2{
+    .advertising-content h2{
         font-size: 24px;
         text-align: center;
     }
-    .advertising-left p {
+    .advertising-content p {
         width: 100%;
         text-align: center;
     }
-    .advertising-left button {
+    .advertising-content button {
         font-size: 10px;
+    }
+    .advertising-img {
+        width: 90%;
+        height: 40vh;
+        border-radius: 30px;
     }
 }
 
