@@ -99,7 +99,6 @@ a {
 }
 
 .nav-logo {
-
     z-index: 3;
 }
 
@@ -119,10 +118,6 @@ a {
 
     .nav-menu.active {
         left: 0;
-    }
-
-    .nav-item {
-        margin: 2.5rem 0;
     }
 
     .hamburger {
@@ -1009,6 +1004,7 @@ a {
     }
     .accordion {
         font-size: 10px;
+        line-height: 10px;
         padding: 0;
     }
     .panel p {
