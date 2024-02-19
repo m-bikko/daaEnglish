@@ -57,12 +57,13 @@ a {
 }
 
 .navbar {
-    width: 98%;
+    width: 95%;
+    height: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*padding: 1rem 1.5rem;*/
+    padding: 1rem 1.5rem;
 }
 
 .hamburger {
@@ -83,12 +84,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5vw;
+    gap: 4vw;
 }
 
 
 .nav-link{
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 50px;
     color: #fff;
@@ -117,7 +118,9 @@ a {
     }
 
     .nav-menu.active {
+        /*121*/
         left: 0;
+        height: 100vh;
     }
 
     .hamburger {
@@ -170,7 +173,7 @@ a {
 .advertise-content {
 }
 .advertise-content h2{
-    font-size: 40px;
+    font-size: 2.6rem;
     font-weight: 400;
     line-height: 50px;
 }
@@ -183,7 +186,7 @@ a {
 .advertise-content p {
     width: 50%;
     color: gray;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 500;
     padding-top: 20px;
 }
@@ -193,7 +196,7 @@ a {
     background-color: #FFC700;
     border: 2px solid #FFC700;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 400;
     margin-top: 40px;
     padding: 20px 0;
@@ -203,7 +206,7 @@ a {
     cursor: pointer;
 }
 
-.cont {
+.advertise-img-box {
     width: 50%;
     /*padding: 40px 0;*/
 }
@@ -222,26 +225,19 @@ a {
 }
 
 
-@media only screen and (max-width: 1500px) {
-    .advertise-img {
-        /*height: 50vh;*/
-
-    }
-}
-
 @media only screen and (max-width: 1280px) {
     .advertise-content h2{
-        font-size: 32px;
-        line-height: 30px;
+        font-size: 2.1rem;
+        line-height: 35px;
     }
     .advertise-content p {
         width: 70%;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 20px;
     }
     .advertise-content button {
         width: 50%;
-        font-size: 16px;
+        font-size: 1rem;
     }
     .advertise-img {
         border-radius: 40px;
@@ -261,7 +257,7 @@ a {
         padding: 40px 0;
     }
     .advertise-content h2{
-        font-size: 24px;
+        font-size: 1.6rem;
         text-align: center;
     }
     .advertise-content p {
@@ -269,11 +265,13 @@ a {
         text-align: center;
     }
     .advertise-content button {
-        font-size: 10px;
+        font-size: 0.6rem;
+    }
+    .advertise-img-box {
+        width: 100%;
     }
     .advertise-img {
-        width: 90%;
-        height: 40vh;
+        width: 100%;
         border-radius: 30px;
     }
 }
@@ -295,7 +293,7 @@ a {
 }
 .intended-for-container h2 {
     color: #fff;
-    font-size: 40px;
+    font-size: 2.6rem;
     font-weight: 600;
     line-height: 48px;
     text-align: center;
@@ -303,7 +301,7 @@ a {
 .intended-for-container a {
     text-decoration: none;
     color: #FFC700;
-    font-size: 32px;
+    font-size: 2.1rem;
     font-weight: 400;
     line-height: 32px;
     display: flex;
@@ -336,7 +334,7 @@ a {
 }
 
 .intended-for-item p {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.05em;
@@ -355,15 +353,15 @@ a {
         border-radius: 40px;
     }
     .intended-for-item p {
-        font-size: 13px;
+        font-size: 0.8rem;
         letter-spacing: 0;
     }
     .intended-for-container h2 {
-        font-size: 26px;
+        font-size: 1.7rem;
         line-height: 24px;
     }
     .intended-for-container a {
-        font-size: 22px;
+        font-size: 1.4rem;
         gap: 10px;
     }
     .intended-for-container a img {
@@ -382,13 +380,13 @@ a {
         margin: 30px 0;
     }
     .intended-for-item p {
-        font-size: 12px;
+        font-size: 0.8rem;
     }
     .intended-for-container h2 {
-        font-size: 22px;
+        font-size: 1.4rem;
     }
     .intended-for-container a {
-        font-size: 15px;
+        font-size: 1rem;
     }
 }
 @media only screen and (max-width: 540px) {
@@ -396,7 +394,7 @@ a {
         width: 70%;
     }
     .intended-for-container h2 {
-        font-size: 20px;
+        font-size: 1.3rem;
     }
 }
 
@@ -404,7 +402,7 @@ a {
 
 .our-team {
     width: 100%;
-    padding: 40px 0;
+    padding-top: 7rem;
 }
 .our-team-container {
     width: 90%;
@@ -415,7 +413,7 @@ a {
 
 .our-team-container h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 2.4rem;
     font-weight: 500;
 }
 
@@ -434,7 +432,7 @@ a {
 
 .our-team-container>div p {
     width: 75%;
-    font-size: 24px;
+    font-size: 1.6rem;
     font-weight: 600;
     line-height: 45px;
 }
@@ -448,10 +446,10 @@ a {
 
 @media only screen and (max-width: 728px) {
     .our-team-container h2{
-        font-size: 22px;
+        font-size: 1.4rem;
     }
     .our-team-container div p {
-        font-size: 14px;
+        font-size: 1rem;
         line-height: 20px;
     }
 }
@@ -466,7 +464,7 @@ a {
 
 .teachers-item  {
     width: 100%;
-    height: 50vh;
+    /*height: 50vh;*/
     display: flex;
     align-items: center;
     padding: 50px 0;
@@ -505,9 +503,9 @@ a {
 .teachers-img-box img {
     width: 100%;
     height: 100%;
-    object-position: top;
+    object-position: center;
     object-fit: cover;
-    aspect-ratio: 4/2;
+    /*aspect-ratio: 3/2;*/
 }
 
 
@@ -515,7 +513,7 @@ a {
 .teachers-info-box {
     width: 50%;
     margin: auto;
-    height: 90%;
+    /*height: 100%;*/
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -523,12 +521,12 @@ a {
 }
 .teachers-info-box h2 {
     color: #484848;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 700;
 }
 .teachers-info-box p {
     color: #828282;
-    font-size: 22px;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
@@ -548,16 +546,16 @@ a {
 
 @media only screen and (max-width: 1024px) {
     .teachers-item{
-        height: 40vh;
+        /*height: 40vh;*/
     }
     .teachers-img-box img {
         height: 100%;
     }
     .teachers-info-box h2 {
-        font-size: 14px;
+        font-size: 1rem;
     }
     .teachers-info-box p {
-        font-size: 14px;
+        font-size: 1rem;
     }
     .teachers-contact {
         width: 30%;
@@ -570,10 +568,10 @@ a {
 
 @media only screen and (max-width: 768px) {
     .our-team-container h2 {
-        font-size: 20px;
+        font-size: 1.3rem;
     }
     .our-team-container>div p {
-        font-size: 13px;
+        font-size: 0.8rem;
     }
     .teachers-item-container {
         width: 100%;
@@ -590,10 +588,10 @@ a {
         border-radius: 30px 0 0 30px;
     }
     .teachers-info-box h2 {
-        font-size: 18px;
+        font-size: 1.2rem;
     }
     .teachers-info-box p {
-        font-size: 14px;
+        font-size: 1rem;
     }
     .teachers-contact a img {
         display: none;
@@ -612,10 +610,10 @@ a {
         border-radius: 20px 0 0 20px;
     }
     .teachers-info-box h2 {
-        font-size: 10px;
+        font-size: 0.6rem;
     }
     .teachers-info-box p {
-        font-size: 10px;
+        font-size: 0.6rem;
     }
 }
 
@@ -623,7 +621,8 @@ a {
 .courses {
     width: 100%;
     background-color: #12182B;
-    padding-bottom: 100px;
+    padding: 3rem 0;
+    overflow: hidden;
 }
 .courses-container {
     width: 90%;
@@ -644,6 +643,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-top: 30px;
 }
 
 .courses-item {
@@ -669,14 +669,14 @@ a {
 }
 
 .courses-item-content h2 {
-    font-size: 48px;
+    font-size: 3.2rem;
     font-weight: 400;
     color: #fff;
     letter-spacing: 0.05em;
     margin: 0;
 }
 .courses-item-content p{
-    font-size: 15px;
+    font-size: 1rem;
     font-family: "Inter", sans;
     font-weight: 400;
     line-height: 20px;
@@ -709,7 +709,7 @@ a {
 }
 @media only screen and (max-width: 1140px) {
     .courses-item-content h2{
-        font-size: 40px;
+        font-size: 2.6rem;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -735,14 +735,15 @@ a {
     width: 100%;
     background-color: #12182B;
     margin: 0;
-    padding-bottom: 80px;
+    padding: 4rem 0;
+    overflow: hidden;
 }
 .free-knowledge-container {
     width: 90%;
     margin: auto;
 }
 .free-knowledge-container h2 {
-    font-size: 48px;
+    font-size: 3.2rem;
     font-weight: 600;
     line-height: 40px;
     text-align: center;
@@ -750,7 +751,7 @@ a {
     margin: 0;
 }
 .free-knowledge-container p {
-    font-size: 24px;
+    font-size: 1.6rem;
     font-weight: 600;
     line-height: 40px;
     text-align: center;
@@ -798,7 +799,7 @@ a {
 
 .free-knowledge-item-content p{
     color: black;
-    font-size: 26px;
+    font-size: 1.7rem;
     font-weight: 900;
     line-height: 32px;
     text-align: center;
@@ -810,7 +811,7 @@ a {
     background-color: black;
 
     font-weight: 600;
-    font-size: 15px;
+    font-size: 1rem;
 
     border-radius: 50px;
     border: 2px solid black;
@@ -831,7 +832,7 @@ a {
         width: 30%;
     }
     .free-knowledge-item-content p {
-        font-size: 20px;
+        font-size: 1.3rem;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -847,7 +848,7 @@ a {
         font-size: 24px;
     }
     .free-knowledge-container p {
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 25px;
     }
 }
@@ -863,22 +864,22 @@ a {
 .cooperation{
     width: 100%;
     padding-bottom: 50px;
+    padding-top: 7rem;
 }
 
 .cooperation-container{
     width: 80%;
     margin: auto;
-    padding-top: 80px;
 }
 .cooperation-container h2{
-    font-size: 36px;
+    font-size: 2.4rem;
     font-weight: 700;
     line-height: 32px;
     text-align: left;
 }
 .cooperation-container p{
     width: 70%;
-    font-size: 24px;
+    font-size: 1.6rem;
     font-weight: 500;
     line-height: 32px;
     text-align: left;
@@ -921,10 +922,10 @@ a {
 }
 @media only screen and (max-width: 768px){
     .cooperation-container h2{
-        font-size: 20px;
+        font-size: 1.3rem;
     }
     .cooperation-container p{
-        font-size: 14px;
+        font-size: 1rem;
     }
     .cooperation-logos {
         width: 100%;
@@ -937,7 +938,7 @@ a {
 
 .questions {
     width: 100%;
-    padding-bottom: 100px;
+    padding: 5rem 0;
 }
 
 .questions-container {
@@ -946,7 +947,7 @@ a {
     padding-top: 50px;
 }
 .questions-container h2 {
-    font-size: 48px;
+    font-size: 3.2rem;
     font-weight: 800;
     line-height: 32px;
     text-align: center;
@@ -967,7 +968,7 @@ a {
     border: none;
     outline: none;
     transition: 0.4s;
-    font-size: 24px;
+    font-size: 1.6rem;
     font-weight: 600;
     line-height: 32px;
     display: flex;
@@ -988,7 +989,7 @@ a {
 }
 
 .panel p {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 27px;
     text-align: left;
@@ -1005,24 +1006,24 @@ a {
 
 @media only screen and (max-width: 1280px) {
     .questions-container h2 {
-        font-size: 36px;
+        font-size: 2.4rem;
     }
     .accordion {
-        font-size: 16px;
+        font-size: 1rem;
         text-align: left;
     }
 }
 @media only screen and (max-width: 768px) {
     .questions-container h2 {
-        font-size: 20px;
+        font-size: 1.3rem;
     }
     .accordion {
         font-size: 10px;
-        line-height: 10px;
+        line-height: 0.6rem;
         padding: 0;
     }
     .panel p {
-        font-size: 7px;
+        font-size: 0.4rem;
     }
 }
 
@@ -1060,7 +1061,7 @@ a {
 }
 .location-link h2 {
     width: 40%;
-    font-size: 48px;
+    font-size: 3.2rem;
     font-weight: 400;
     line-height: 50px;
     letter-spacing: 0.03em;
@@ -1071,12 +1072,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 5px;
     text-decoration: none;
 }
 .location-link a p {
     font-family: "Jaldi", sans-serif;
-    font-size: 24px;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 32px;
     text-align: center;
@@ -1093,9 +1094,10 @@ a {
 }
 .link-item {
     width: 45%;
-    height: 30vh;
+    /*height: 30vh;*/
     background-color: rgba(18, 24, 43, 0.5);
     border: 1px solid gray;
+    padding: 30px 0;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -1114,6 +1116,7 @@ a {
     padding: 20px 0;
     text-decoration: none;
     color: black;
+    z-index: 1;
 }
 
 .link-item a:hover {
@@ -1123,7 +1126,7 @@ a {
 
 
 .link-item a span {
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 0.01em;
@@ -1149,7 +1152,7 @@ a {
     object-fit: contain;
 }
 .social-box p {
-    font-size: 25px;
+    font-size: 1.6rem;
     font-weight: 400;
     font-family: "Jaldi", sans-serif;
     line-height: 32px;
@@ -1166,17 +1169,14 @@ a {
     .link-list {
         padding-top: 30px;
     }
-    .location-link a {
-        gap: 8px;
-    }
     .location-link h2 {
-        font-size: 26px;
+        font-size: 1.7rem;
     }
     .location-link a p {
-        font-size: 16px;
+        font-size: 1rem;
     }
     .link-item a span {
-        font-size: 16px;
+        font-size: 1rem;
     }
     .link-item a svg {
         width: 30px;
@@ -1185,12 +1185,12 @@ a {
         width: 40px;
     }
     .social-box p {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 @media only screen and (max-width: 768px){
     .contacts-container{
-        width: 100%;
+        width: 80%;
     }
     .location-link {
         flex-direction: column;
@@ -1200,13 +1200,13 @@ a {
         text-align: center;
     }
     .location-link a p {
-        font-size: 12px;
+        font-size: 0.8rem;
     }
     .link-item a {
         padding: 5px 0;
     }
     .link-item a span {
-        font-size: 12px;
+        font-size: 0.8rem;
     }
     .social-box {
         gap: 5px;
@@ -1236,7 +1236,7 @@ a {
 }
 .footer-container ul li a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.03em;
@@ -1244,7 +1244,7 @@ a {
 }
 
 .footer-container h2 {
-    font-size: 24px;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0.03em;
@@ -1272,7 +1272,7 @@ a {
 }
 
 .logo-info-container p {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0.03em;
@@ -1289,10 +1289,10 @@ a {
         width: 100%;
     }
     .footer-container h2 {
-        font-size: 16px;
+        font-size: 1rem;
     }
     .footer-container ul li a{
-        font-size: 12px;
+        font-size: 0.8rem;
     }
     .logo-info img {
         width: 60px;
@@ -1302,7 +1302,7 @@ a {
         padding: 15px 0;
     }
     .logo-info-container p {
-        font-size: 10px;
+        font-size: 0.6rem;
     }
 }
 @media only screen and (max-width: 550px){
@@ -1316,9 +1316,9 @@ a {
         display: none;
     }
     .footer-container h2 {
-        font-size: 10px;
+        font-size: 0.6rem;
     }
     .footer-container ul li a{
-        font-size: 7px;
+        font-size: 0.4rem;
     }
 }
