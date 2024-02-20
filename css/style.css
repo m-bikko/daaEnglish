@@ -1165,7 +1165,7 @@ a {
         font-size: 0.8rem;
     }
     .link-item a {
-        /*padding: 5px 0;*/
+        padding: 5px 5px;
     }
     .link-item a span {
         font-size: 0.8rem;
