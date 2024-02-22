@@ -353,7 +353,7 @@ a {
         border-radius: 40px;
     }
     .intended-for-item p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         letter-spacing: 0;
     }
     .intended-for-container h2 {
@@ -380,7 +380,7 @@ a {
         margin: 30px 0;
     }
     .intended-for-item p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .intended-for-container h2 {
         font-size: 1.4rem;
@@ -439,7 +439,7 @@ a {
 
 .our-team-container>div img {
     width: 20%;
-    min-width: 100px;
+    min-width: 80px;
     object-fit: contain;
 }
 
@@ -542,6 +542,10 @@ a {
 }
 
 @media only screen and (max-width: 1028px) {
+    .our-team-container>div p{
+        font-size: 0.9rem;
+        line-height: 30px;
+    }
     .teachers-info h2 {
         font-size: 20px;
     }
@@ -642,7 +646,7 @@ a {
     margin: 0;
 }
 .courses-item-content p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: "Inter", sans;
     font-weight: 400;
     line-height: 20px;
@@ -679,6 +683,9 @@ a {
     }
 }
 @media only screen and (max-width: 768px) {
+    .courses-container>h2{
+        font-size: 56px;
+    }
     .courses-list{
         flex-direction: column;
         gap: 60px;
@@ -906,7 +913,7 @@ a {
 
 .questions {
     width: 100%;
-    padding: 5rem 0;
+    padding: 0 0 5rem 0;
 }
 
 .questions-container {
@@ -986,8 +993,8 @@ a {
         font-size: 1.3rem;
     }
     .accordion {
-        font-size: 10px;
-        line-height: 0.6rem;
+        font-size: 12px;
+        line-height: 1rem;
         padding: 0;
     }
     .panel p {
@@ -1025,18 +1032,20 @@ a {
 .location-link {
     width: 100%;
     display: flex;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     align-items: center;
 }
 .location-link h2 {
-    width: 40%;
-    font-size: 3.2rem;
+    width: 50%;
+    font-size: 1.9rem;
     font-weight: 400;
     line-height: 50px;
     letter-spacing: 0.03em;
     color: #fff;
 }
-
+.icon > svg{
+    margin-top: 5px;
+}
 .location-link a {
     display: flex;
     justify-content: center;
@@ -1265,7 +1274,7 @@ a {
         font-size: 0.8rem;
     }
     .logo-info img {
-        width: 60px;
+        width: 100px;
         object-fit: contain;
     }
     .logo-info-container .stick {
@@ -1276,6 +1285,10 @@ a {
     }
 }
 @media only screen and (max-width: 550px){
+    .cooperation{
+        margin-top: 2rem;
+        padding-top: 0;
+    }
     .footer-container {
         width: 95%;
     }
@@ -1286,9 +1299,9 @@ a {
         display: none;
     }
     .footer-container h2 {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
     .footer-container ul li a{
-        font-size: 0.4rem;
+        font-size: 0.5rem;
     }
 }
