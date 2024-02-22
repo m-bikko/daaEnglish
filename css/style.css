@@ -865,14 +865,15 @@ a {
 .cooperation-logos{
     width: 40%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 40px;
 }
 .cooperation-logo {
     width: 40%;
     height: auto;
-    min-width: 140px;
-    min-height: 140px;
+    min-width: 120px;
+    min-height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -904,7 +905,7 @@ a {
     }
     .cooperation-logos {
         width: 100%;
-        flex-direction: column;
+        /*flex-direction: column;*/
         gap: 40px;
     }
 }
