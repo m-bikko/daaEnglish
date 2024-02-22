@@ -7,7 +7,6 @@
     <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="Updated menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <workItem from="1708248255771" duration="1531000" />
       <workItem from="1708256324673" duration="4459000" />
       <workItem from="1708530240868" duration="4642000" />
-      <workItem from="1708617293325" duration="1235000" />
+      <workItem from="1708617293325" duration="2390000" />
     </task>
     <task id="LOCAL-00001" summary="Created NavBar">
       <option name="closed" value="true" />
