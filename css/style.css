@@ -244,6 +244,9 @@ a {
     }
 }
 @media only screen and (max-width: 768px) {
+    .free-knowledge-item-content > p{
+        font-size: 1.2rem;
+    }
     .advertise-container {
         flex-direction: column;
     }
@@ -263,9 +266,6 @@ a {
     .advertise-content p {
         width: 100%;
         text-align: center;
-    }
-    .advertise-content button {
-        font-size: 0.6rem;
     }
     .advertise-img-box {
         width: 100%;
@@ -767,7 +767,7 @@ a {
 
 .free-knowledge-item-content p{
     color: black;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 900;
     line-height: 32px;
     text-align: center;

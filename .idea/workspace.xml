@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="Updated advertise">
-      <change afterPath="$PROJECT_DIR$/fonts/AlumniSansCollegiateOne-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/advertise-image.jpg" afterDir="false" />
+    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="Updated menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/advertising-image.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/WebstormProjects/daaEnglish/fonts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/marbik/WebstormProjects/daaEnglish",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\WebstormProjects\daaEnglish\fonts" />
@@ -84,7 +82,8 @@
       <workItem from="1708205443508" duration="19068000" />
       <workItem from="1708248255771" duration="1531000" />
       <workItem from="1708256324673" duration="4459000" />
-      <workItem from="1708273840530" duration="1483000" />
+      <workItem from="1708530240868" duration="4642000" />
+      <workItem from="1708617293325" duration="1235000" />
     </task>
     <task id="LOCAL-00001" summary="Created NavBar">
       <option name="closed" value="true" />
@@ -158,51 +157,22 @@
       <option name="project" value="LOCAL" />
       <updated>1708263740308</updated>
     </task>
-    <task id="LOCAL-00010" summary="Updated menu">
-      <option name="closed" value="true" />
-      <created>1708273942229</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1708273942229</updated>
-    </task>
-    <task id="LOCAL-00011" summary="updated advertising">
-      <option name="closed" value="true" />
-      <created>1708274445547</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1708274445547</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Updated advertising-img">
-      <option name="closed" value="true" />
-      <created>1708274567175</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1708274567175</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Updated advertis">
-      <option name="closed" value="true" />
-      <created>1708274742572</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1708274742572</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Updated advertise">
-      <option name="closed" value="true" />
-      <created>1708275092624</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1708275092624</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created NavBar" />
@@ -213,10 +183,6 @@
     <MESSAGE value="Updated adaptive" />
     <MESSAGE value="Updated advertising" />
     <MESSAGE value="Updated menu" />
-    <MESSAGE value="updated advertising" />
-    <MESSAGE value="Updated advertising-img" />
-    <MESSAGE value="Updated advertis" />
-    <MESSAGE value="Updated advertise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated advertise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated menu" />
   </component>
 </project>
