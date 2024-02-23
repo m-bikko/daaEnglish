@@ -118,9 +118,8 @@ a {
     }
 
     .nav-menu.active {
-        /*121*/
         left: 0;
-        height: 100%;
+        height: calc(100% - 80px);
     }
 
     .hamburger {
@@ -958,8 +957,6 @@ a {
     background-color: inherit;
 }
 
-.active, .accordion:hover {
-}
 
 .panel {
     padding: 0 18px;
@@ -981,7 +978,7 @@ a {
     content: url(../img/question/Expand_down_light.svg);
 }
 
-.active:after {
+.accordion.active:after {
     content: url(../img/question/Expand_up_light.svg);
 }
 
