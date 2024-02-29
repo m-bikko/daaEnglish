@@ -1005,7 +1005,7 @@ a {
         padding: 0;
     }
     .panel p {
-        font-size: 10px;
+        font-size: 10px!important;
     }
 }
 
