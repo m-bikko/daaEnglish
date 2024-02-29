@@ -1006,6 +1006,7 @@ a {
     }
     .panel p {
         font-size: 10px!important;
+        line-height: 12px!important;
     }
 }
 
