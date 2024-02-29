@@ -52,7 +52,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #12182B;
+    background-color: #2b2e39;
     z-index: 3;
 }
 
@@ -284,7 +284,8 @@ a {
 
 .intended-for {
     width: 100%;
-    background-color: #12182B;
+    background-color: #2b2e39;
+    /*#12182B*/
     padding: 30px 0;
 }
 
@@ -595,7 +596,7 @@ a {
 /*Courses component*/
 .courses {
     width: 100%;
-    background-color: #12182B;
+    background-color: #2b2e39;
     padding: 3rem 0;
 }
 .courses-container {
@@ -710,7 +711,7 @@ a {
 
 .free-knowledge {
     width: 100%;
-    background-color: #12182B;
+    background-color: #2b2e39;
     margin: 0;
     padding: 4rem 0;
     box-decoration-break: inherit;
@@ -1203,7 +1204,7 @@ a {
 
 .footer {
     width: 100%;
-    background-color: #12182B;
+    background-color: #2b2e39;
 }
 .footer-container {
     width: 95%;
