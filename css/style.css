@@ -562,6 +562,9 @@ a {
     }
 }
 @media only screen and (max-width: 768px) {
+    .our-team{
+        padding-top: 3rem;
+    }
     .teachers-item {
         width: 100%;
         border-radius: 20px ;
