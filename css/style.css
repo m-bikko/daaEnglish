@@ -82,7 +82,7 @@ a {
 
 .nav-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 4vw;
 }
@@ -651,7 +651,7 @@ a {
 }
 
 .courses-item-content h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 400;
     color: #fff;
     letter-spacing: 0.05em;
@@ -853,7 +853,7 @@ a {
 
 .cooperation{
     width: 100%;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
     padding-top: 7rem;
 }
 
@@ -878,16 +878,18 @@ a {
 }
 
 .cooperation-logos{
-    width: 40%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
     padding-top: 40px;
 }
 .cooperation-logo {
     width: 40%;
     height: auto;
-    min-width: 120px;
+    margin-bottom: 25px;
+    max-width: 230px;
     min-height: 120px;
     display: flex;
     justify-content: center;
@@ -907,9 +909,6 @@ a {
         width: 100%;
     }
 
-    .cooperation-logos {
-        width: 60%;
-    }
 }
 @media only screen and (max-width: 768px){
     .cooperation-container h2{
@@ -1300,10 +1299,7 @@ a {
     }
 }
 @media only screen and (max-width: 550px){
-    .cooperation{
-        margin-top: 2rem;
-        padding-top: 0;
-    }
+
     .footer-container {
         width: 95%;
     }
