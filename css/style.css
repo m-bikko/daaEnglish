@@ -3,6 +3,34 @@
     font-weight: 400;
     font-style: normal;
 }
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.drop-in {
+    animation: drop-in 1s ease 200ms backwards;
+}
+
+.drop-in-2 {
+    animation: drop-in 1200ms ease 500ms backwards;
+}
+.drop-in-3 {
+    animation: drop-in 1400ms ease 500ms backwards;
+}
+.drop-in-4 {
+    animation: drop-in 2000ms ease 500ms backwards;
+}
+
+@keyframes drop-in {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
 
 .inter {
     font-family: "Inter", sans-serif;
