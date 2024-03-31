@@ -658,7 +658,7 @@ a {
 
 .courses-item {
     width: 26%;
-    background-color: #525252;
+    background-color: #ffffff;
     border: 1px solid black;
     border-radius: 30px;
     padding: 20px 20px 40px;
@@ -681,7 +681,7 @@ a {
 .courses-item-content h2 {
     font-size: 3rem;
     font-weight: 400;
-    color: #fff;
+    color: black;
     letter-spacing: 0.05em;
     margin: 0;
 }
@@ -693,7 +693,7 @@ a {
 
     text-align: center;
     letter-spacing: 0.05em;
-    color: #fff;
+    color: #black;
     padding: 20px 0;
 }
 
