@@ -786,7 +786,7 @@ a {
 }
 .free-knowledge-item {
     width: 23%;
-    background-color: #828282;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
