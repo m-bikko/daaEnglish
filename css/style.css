@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
 .alumni-sans collegiate one-regular {
     font-family: "Alumni Sans Collegiate One", sans-serif;
     font-weight: 400;
@@ -10,7 +13,9 @@
 .drop-in {
     animation: drop-in 1s ease 200ms backwards;
 }
-
+.drop-in-left-1 {
+    animation: drop-in 1s ease 200ms backwards;
+}
 .drop-in-2 {
     animation: drop-in 1200ms ease 500ms backwards;
 }
@@ -318,6 +323,7 @@ a {
 }
 .intended-for-item > p{
     margin-bottom: 30px;
+
 }
 .intended-for-container {
     width: 90%;
@@ -373,7 +379,7 @@ a {
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.05em;
-    color: #828282;
+    color: #12182b;
     padding-top: 20px;
 }
 
@@ -637,15 +643,16 @@ a {
 .courses-container {
     width: 90%;
     margin: auto;
-    font-family: Alumni Sans Collegiate One, sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; /* Makes these headings bold */
 
 }
 .courses-container>h2 {
     text-align: center;
     font-size: 120px;
-    font-weight: 400;
+    /*font-weight: 400;*/
     color: #FFC700;
-    letter-spacing: 0.05em;
+    /*letter-spacing: 0.05em;*/
     padding: 20px 0;
 }
 
@@ -679,10 +686,10 @@ a {
 }
 
 .courses-item-content h2 {
-    font-size: 3rem;
-    font-weight: 400;
-    color: black;
-    letter-spacing: 0.05em;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #12182b;
+    /*letter-spacing: 0.05em;*/
     margin: 0;
 }
 .courses-item-content p{
@@ -693,7 +700,7 @@ a {
 
     text-align: center;
     letter-spacing: 0.05em;
-    color: #black;
+    color: #12182b;
     padding: 20px 0;
 }
 
@@ -722,7 +729,7 @@ a {
 }
 @media only screen and (max-width: 1140px) {
     .courses-item-content h2{
-        font-size: 2.6rem;
+        font-size: 1.6rem;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -816,7 +823,7 @@ a {
 }
 
 .free-knowledge-item-content p{
-    color: black;
+    color: #12182b;
     font-size: 1.5rem;
     font-weight: 900;
     line-height: 32px;
@@ -826,7 +833,7 @@ a {
 
 .free-knowledge-item-content a {
     color: white;
-    background-color: black;
+    background-color: #12182b;
 
     font-weight: 600;
     font-size: 1rem;
@@ -1074,11 +1081,13 @@ a {
 .location-link {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 .location-link h2 {
-    width: 50%;
+    margin-bottom: 25px;
+    /*width: 50%;*/
     font-size: 1.9rem;
     font-weight: 400;
     line-height: 50px;
@@ -1206,12 +1215,11 @@ a {
     .contacts-container{
         /*width: 80%;*/
     }
-    .location-link {
-        flex-direction: column;
-    }
+
     .location-link h2 {
         width: 100%;
         text-align: center;
+        font-size: 1.3rem;
     }
     .location-link a p {
         font-size: 0.8rem;
@@ -1327,7 +1335,6 @@ a {
     }
 }
 @media only screen and (max-width: 550px){
-
     .footer-container {
         width: 95%;
     }
