@@ -188,31 +188,208 @@
                 <div class="courses-item">
                     <img src="img/courses-img/1_courses-icon.svg" alt=""/>
                     <div class="courses-item-content">
-                        <h2>IELTS</h2>
-                        <p>IELTS курстары ағылшын тілінің негізгі дағдыларына яғни,тыңдау, оқу, жазу және сөйлеу мен тест форматына дайындықты қамтамасыз етеді.
-                            IELTS тестінен өтуді жоспарлап, жоғары баллға ие болғыңыз келсе,
-                            курсқа жазылыңыз.</p>
-                        <button>Толығырақ</button>
+                        <h2>IELTS(B1+)</h2>
+                        <p></p>
+                        <div class="plan-button-container">
+                            <button class="IELTS-plan-button plan-button" onclick="togglePlan('IELTS', 'mooc')">MOOC</button>
+                            <button class="IELTS-plan-button plan-button" onclick="togglePlan('IELTS', 'premium')">Premium</button>
+                            <button class="IELTS-plan-button plan-button" onclick="togglePlan('IELTS', 'vip')">VIP</button>
+                        </div>
+
+                        <div id="IELTS-mooc-info" class="IELTS-plan-info plan-info">
+                            <h2>MOOC Plan</h2>
+                            <ul>
+                                <li>- Courstore платформасына доступ (6 ай)</li>
+                                <li>- 30 видео</li>
+                                <li>- Жаттығулар мен тапсырмалар</li>
+                                <li>- Кері байланыс</li>
+                                <li>- Quizlet карточкасы</li>
+                                <li>- Құны 100000 тг материал</li>
+                            </ul>
+                            <p>Бағасы: 30000 KZT</p>
+                        </div>
+
+                        <div id="IELTS-premium-info" class="IELTS-plan-info plan-info">
+                            <h2>Premium Plan</h2>
+                            <ul>
+                                <li>- Courstore платформасына доступ (6 ай)</li>
+                                <li>- 30 видео</li>
+                                <li>- Жаттығулар мен тапсырмалар</li>
+                                <li>- Кері байланыс</li>
+                                <li>- Quizlet карточкасы</li>
+                                <li>- Құны 100000 тг материал</li>
+                                <li class="turn-txt-green">- Telegram канал</li>
+                                <li class="turn-txt-green">- Аптасына 3 рет Zoom сабақтары (2 ай)</li>
+                                <li class="turn-txt-green">- Куратор бақылауы</li>
+                                <li class="turn-txt-green">- Пробный емтихан</li>
+                            </ul>
+                            <p>Бағасы: 120000 KZT</p>
+                        </div>
+
+                        <div id="IELTS-vip-info" class="IELTS-plan-info plan-info">
+                            <h2>VIP Plan</h2>
+                            <ul>
+                                <li>- Courstore платформасына доступ (6 ай)</li>
+                                <li>- 30 видео</li>
+                                <li>- Жаттығулар мен тапсырмалар</li>
+                                <li>- Кері байланыс</li>
+                                <li>- Quizlet карточкасы</li>
+                                <li>- Құны 100000 тг материал</li>
+                                <li>- Telegram канал</li>
+                                <li>- Аптасына 3 рет Zoom сабақтары (2 ай)</li>
+                                <li>- Куратор бақылауы</li>
+                                <li>- Пробный емтихан</li>
+                                <li class="turn-txt-green">- 4 рет ағайлармен жеке мастер класс</li>
+                                <li class="turn-txt-green">- Бонус: Шақтар курсы</li>
+                            </ul>
+                            <p>Бағасы: 200000 KZT</p>
+                        </div>
                     </div>
                 </div>
-
                 <div class="courses-item">
                     <img src="img/courses-img/2_courses-icon.svg" alt=""/>
                     <div class="courses-item-content">
-                        <h2>ЕНТ</h2>
-                        <p>Кәсіби дайындық курсымызбен ағылшын тілінен  ҰБТ-ны сенімді түрде тапсырыңыз!
-                            Біз оқушыларға ҰБТ-да жоғары нәтижелерге жетуге көмектесетін тәжірибелі мұғалімдерді, тест тапсырмалары мен жоғары сапалы оқу материалдарын ұсынамыз.</p>
-                        <button>Толығырақ</button>
+                        <h2>Midway(B1+)</h2>
+                        <p></p>
+                        <div class="plan-button-container">
+                            <button class="Midway-plan-button plan-button" onclick="togglePlan('Midway', 'mooc')">MOOC</button>
+                            <button class="Midway-plan-button plan-button" onclick="togglePlan('Midway', 'premium')">Premium</button>
+                            <button class="Midway-plan-button plan-button" onclick="togglePlan('Midway', 'vip')">VIP</button>
+                        </div>
+
+                        <div id="Midway-mooc-info" class="Midway-plan-info plan-info">
+                            <h2>MOOC Plan</h2>
+                            <ul>
+                                <li>- Courstore платформасына доступ (6 ай)</li>
+                                <li>- 80 видео</li>
+                                <li>- 46 тапсырма</li>
+                                <li>- Шақтар таблицасы</li>
+                                <li>- Quizlet карточкасы</li>
+                                <li>- Graded Readers</li>
+                            </ul>
+                            <p>Бағасы: 10000 KZT</p>
+                        </div>
+
+                        <div id="Midway-premium-info" class="Midway-plan-info plan-info">
+                            <h2>Premium Plan</h2>
+                            <ul>
+                                <li>- Courstore платформасына доступ (6 ай)</li>
+                                <li>- 80 видео</li>
+                                <li>- 46 тапсырма</li>
+                                <li>- Шақтар таблицасы</li>
+                                <li>- Quizlet карточкасы</li>
+                                <li>- Graded Readers</li>
+                                <li class="turn-txt-green">- Telegram канал</li>
+                                <li class="turn-txt-green">- Аптасына 3 рет Zoom сабақтары (2 ай)</li>
+                                <li class="turn-txt-green">- Куратор бақылауы</li>
+                                <li class="turn-txt-green">- Үй тапсырмалары</li>
+                            </ul>
+                            <p>Бағасы: 60000 KZT</p>
+                        </div>
+
+                        <div id="Midway-vip-info" class="Midway-plan-info plan-info">
+                            <h2>VIP Plan</h2>
+                            <ul>
+                                <li>- Courstore платформасына доступ (6 ай)</li>
+                                <li>- 80 видео</li>
+                                <li>- 46 тапсырма</li>
+                                <li>- Шақтар таблицасы</li>
+                                <li>- Quizlet карточкасы</li>
+                                <li>- Graded Readers</li>
+                                <li>- Telegram канал</li>
+                                <li>- Аптасына 3 рет Zoom сабақтары (2 ай)</li>
+                                <li>- Куратор бақылауы</li>
+                                <li>- Үй тапсырмалары</li>
+                                <li class="turn-txt-green">- Аптасына 1 рет (Speaking Club)</li>
+                            </ul>
+                            <p>Бағасы: 90000 KZT</p>
+                        </div>
                     </div>
                 </div>
-
                 <div class="courses-item">
                     <img src="img/courses-img/3_courses-icon.svg" alt=""/>
                     <div class="courses-item-content">
-                        <h2>General English</h2>
-                        <p>General English-деңгейлері бастапқыдан орта деңгейге дейінгі студенттерге арналған. Біз ағылшын тілін енді ғана үйреніп келе жатқандар үшін
-                            қолайлы оқу бағдарламасын жасадық.Егер көптен бері ағылшын тілінде сөйлеуге тырысып жүрсеңіз,сөздік қорыңыздың кеңеюін қаласаңыз бұл курс сізге арналады.</p>
-                        <button>Толығырақ</button>
+                        <h2>Easy-Start(A1)</h2>
+                        <p></p>
+                        <div class="plan-button-container">
+                            <button class="Easy-Start-plan-button plan-button" onclick="togglePlan('Easy-Start', 'mooc')">MOOC</button>
+                            <button class="Easy-Start-plan-button plan-button" onclick="togglePlan('Easy-Start', 'premium')">Premium</button>
+                            <button class="Easy-Start-plan-button plan-button" onclick="togglePlan('Easy-Start', 'vip')">VIP</button>
+                        </div>
+
+                        <div id="Easy-Start-mooc-info" class="Easy-Start-plan-info plan-info">
+                            <h2>MOOC Plan</h2>
+                            <ul>
+                                <li>- Courstore платформасына доступ (6 ай)</li>
+                                <li>- 80 видео</li>
+                                <li>- 34 тапсырма</li>
+                                <li>- 17 сынақ</li>
+                                <li>- Шақтар таблицасы</li>
+                                <li>- Quizlet карточкасы</li>
+                                <li>- Graded Readers</li>
+                            </ul>
+
+                            <p>Бағасы: 10000 KZT</p>
+                        </div>
+
+                        <div id="Easy-Start-premium-info" class="Easy-Start-plan-info plan-info">
+                            <h2>Premium Plan</h2>
+                            <ul>
+                                <li>- Courstore платформасына доступ (6 ай)</li>
+                                <li>- 80 видео</li>
+                                <li>- 46 тапсырма</li>
+                                <li>- Шақтар таблицасы</li>
+                                <li>- Quizlet карточкасы</li>
+                                <li>- Graded Readers</li>
+                                <li class="turn-txt-green">- Telegram канал</li>
+                                <li class="turn-txt-green">- Аптасына 3 рет Zoom сабақтары (2 ай)</li>
+                                <li class="turn-txt-green">- Куратор бақылауы</li>
+                                <li class="turn-txt-green">- Үй тапсырмалары</li>
+                            </ul>
+                            <p>Бағасы: 60000 KZT</p>
+                        </div>
+
+                        <div id="Easy-Start-vip-info" class="Easy-Start-plan-info plan-info">
+                            <h2>VIP Plan</h2>
+                            <ul>
+                                <li>- Courstore платформасына доступ (6 ай)</li>
+                                <li>- 80 видео</li>
+                                <li>- 46 тапсырма</li>
+                                <li>- Шақтар таблицасы</li>
+                                <li>- Quizlet карточкасы</li>
+                                <li>- Graded Readers</li>
+                                <li>- Telegram канал</li>
+                                <li>- Аптасына 3 рет Zoom сабақтары (2 ай)</li>
+                                <li>- Куратор бақылауы</li>
+                                <li>- Үй тапсырмалары</li>
+                                <li class="turn-txt-green">- Аптасына 1 рет (Speaking Club)</li>
+                            </ul>
+                            <p>Бағасы: 90000 KZT</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-item">
+                    <img src="img/courses-img/3_courses-icon.svg" alt=""/>
+                    <div class="courses-item-content">
+                        <h2>Fresh Start(A1)</h2>
+                        <p></p>
+                        <div class="">
+                            <button class="Fresh-Start-plan-button plan-button" onclick="togglePlan('Fresh-Start', 'mooc')">MOOC</button>
+                        </div>
+                        <div id="Fresh-Start-mooc-info" class="Fresh-Start-plan-info plan-info">
+                            <h2>MOOC</h2>
+                            <ul>
+                                <li class="turn-txt-green">- Beginner -> Intermediate</li>
+                                <li>- Courstore(6 ай)</li>
+                                <li>- 128 видео-материал</li>
+                                <li>- 34 тапсырма</li>
+                                <li>- 28 сынақ</li>
+                                <li>- All inclusive (Listening, Speaking, Reading, Vocabulary)</li>
+                                <li>- Graded Readers</li>
+                            </ul>
+
+                            <p>Бағасы: 10000 KZT</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -403,6 +580,7 @@
 
 
     <script src="js/script.js"></script>
+
 </body>
 
 </html>

@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="Updated">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_02_2024,_19_36_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_02_2024__19_36__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_02_2024,_03_05_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_02_2024__03_05__Changes_.xml" beforeDir="false" />
+    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="Fix smth">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -71,11 +71,11 @@
       <recent name="C:\Users\admin\WebstormProjects\daaEnglish" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/cooperation-img" />
+      <recent name="$PROJECT_DIR$/img/our-team-img" />
       <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img" />
       <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\our-team-img" />
       <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\teachers-img" />
-      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\contacts-img" />
-      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\question" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -106,6 +106,12 @@
       <workItem from="1708857343670" duration="2073000" />
       <workItem from="1709194975100" duration="3089000" />
       <workItem from="1709391372922" duration="1221000" />
+      <workItem from="1710220891958" duration="1766000" />
+      <workItem from="1710348631606" duration="1207000" />
+      <workItem from="1711458231690" duration="3299000" />
+      <workItem from="1711742678809" duration="2375000" />
+      <workItem from="1711900370465" duration="6457000" />
+      <workItem from="1712212483116" duration="11620000" />
     </task>
     <task id="LOCAL-00001" summary="Created NavBar">
       <option name="closed" value="true" />
@@ -291,7 +297,87 @@
       <option name="project" value="LOCAL" />
       <updated>1709195577653</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="color">
+      <option name="closed" value="true" />
+      <created>1710220928501</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710220928501</updated>
+    </task>
+    <task id="LOCAL-00025" summary="color">
+      <option name="closed" value="true" />
+      <created>1710221014981</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710221014981</updated>
+    </task>
+    <task id="LOCAL-00026" summary="color">
+      <option name="closed" value="true" />
+      <created>1710221052436</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710221052436</updated>
+    </task>
+    <task id="LOCAL-00027" summary="color">
+      <option name="closed" value="true" />
+      <created>1710221207299</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710221207299</updated>
+    </task>
+    <task id="LOCAL-00028" summary="color">
+      <option name="closed" value="true" />
+      <created>1710221296051</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1710221296051</updated>
+    </task>
+    <task id="LOCAL-00029" summary="color">
+      <option name="closed" value="true" />
+      <created>1710221356608</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710221356608</updated>
+    </task>
+    <task id="LOCAL-00030" summary="color">
+      <option name="closed" value="true" />
+      <created>1710221437882</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1710221437882</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Fix smth">
+      <option name="closed" value="true" />
+      <created>1711460059766</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1711460059766</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Fix smth">
+      <option name="closed" value="true" />
+      <created>1711545026885</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1711545026885</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Fix smth">
+      <option name="closed" value="true" />
+      <created>1712056006762</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1712056006762</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +410,8 @@
     <MESSAGE value="Updated advertising" />
     <MESSAGE value="Updated menu" />
     <MESSAGE value="Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+    <MESSAGE value="color" />
+    <MESSAGE value="Fix smth" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix smth" />
   </component>
 </project>

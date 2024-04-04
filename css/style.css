@@ -585,7 +585,7 @@ a {
 @media only screen and (max-width: 1028px) {
     .our-team-container>div p{
         font-size: 0.9rem;
-        line-height: 30px;
+        line-height:25px;
     }
     .teachers-info h2 {
         font-size: 20px;
@@ -659,8 +659,9 @@ a {
 .courses-list{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
 }
 
 .courses-item {
@@ -684,13 +685,17 @@ a {
     flex-direction: column;
     align-items: center;
 }
-
+.turn-txt-green{
+    color: green;
+    font-weight: 600!important;
+}
 .courses-item-content h2 {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #12182b;
     /*letter-spacing: 0.05em;*/
     margin: 0;
+    padding-bottom: 15px;
 }
 .courses-item-content p{
     font-size: 1rem;
@@ -704,20 +709,6 @@ a {
     padding: 20px 0;
 }
 
-.courses-item-content button {
-    font-weight: 400;
-    background-color: #FFC700;
-    border-radius: 50px;
-    padding: 15px 30px;
-    border: 2px solid #FFC700;
-    transition: 0.3s ease;
-    cursor: pointer;
-    margin-top: auto;
-}
-.courses-item-content button:hover {
-    background-color: inherit;
-    color: #fff;
-}
 
 @media only screen and (max-width: 1280px){
     .panel p{
@@ -1333,6 +1324,10 @@ a {
     .logo-info-container p {
         font-size: 0.6rem;
     }
+    .plan-info ul li {
+        margin: 5px 0;
+        font-size: 12px!important;
+    }
 }
 @media only screen and (max-width: 550px){
     .footer-container {
@@ -1350,4 +1345,69 @@ a {
     .footer-container ul li a{
         font-size: 0.7rem;
     }
+}
+
+.plan-button-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px #12182b solid;
+    border-radius: 10px;
+}
+
+.course-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: calc(33.33% - 40px);
+    box-sizing: border-box;
+}
+
+.plan-button {
+    display: block;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+.plan-button:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 2px #12182b solid;
+}
+
+.plan-button:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: 2px #12182b solid;
+}
+
+.plan-info {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.plan-info ul {
+    /*padding-left: 20px;*/
+    border-bottom: #12182b 1px solid;
+}
+
+.plan-info ul li {
+    padding: 5px 0;
+    border-top: #12182b 1px solid;
+    font-size: 16px;
+    font-weight: 500;
+    /*border-top: #12182b 1px solid;*/
+}
+
+.plan-info p {
+    margin-top: 10px;
+    font-weight: bold;
 }
