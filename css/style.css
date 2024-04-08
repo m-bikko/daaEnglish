@@ -693,9 +693,8 @@ a {
     font-size: 2rem;
     font-weight: 700;
     color: #12182b;
-    /*letter-spacing: 0.05em;*/
     margin: 0;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 .courses-item-content p{
     font-size: 1rem;
@@ -706,7 +705,7 @@ a {
     text-align: center;
     letter-spacing: 0.05em;
     color: #12182b;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 
@@ -881,6 +880,7 @@ a {
     width: 100%;
     /*padding-bottom: 50px;*/
     padding-top: 7rem;
+    padding-bottom: 2rem;
 }
 
 .cooperation-container{
@@ -1410,4 +1410,76 @@ a {
 .plan-info p {
     margin-top: 10px;
     font-weight: bold;
+}
+.students{
+    padding: 7rem 0;
+    width: 100%;
+    color: white;
+    background-color: #12182B;
+}
+.students-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.students-container > h2{
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+}
+.case{
+    width: 100%;
+    border-bottom: white 1px solid;
+    border-top: white 1px solid;
+    padding: 15px 0;
+}
+.case > p{
+    margin-bottom: 30px;
+}
+.case > div{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.results{
+    display: flex;
+    justify-content: space-between;
+}
+.results-by-section{
+    display: flex;
+    gap: 15px;
+}
+.results-by-section-single{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    padding: 8px 10px;
+    color: #12182b;
+}
+.results-by-section-single > img{
+    width: 40px;
+    fill: white;
+}
+.results-by-section-single-total{
+    font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+    .students{
+        padding: 3rem 0;
+    }
+    .results-by-section-single > img{
+        width: 25px;
+        fill: white;
+    }
+    .students-container > h2{
+        font-size: 2rem;
+        margin-bottom: 25px;
+    }
+    .case > p{
+        font-size: 1rem;
+    }
 }
