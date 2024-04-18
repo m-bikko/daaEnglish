@@ -559,11 +559,11 @@ a {
     margin: auto;
 }
 .teachers-info p {
+    color: black;
     width: 85%;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 35px;
-    color: #828282;
     margin: auto;
 }
 
