@@ -1041,8 +1041,17 @@ a {
         line-height: 12px!important;
     }
 }
-
-
+a{
+    all: unset;
+}
+.buy-btn{
+    border: 0;
+    border-radius: 10px;
+    width: 190px;
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px 10px;
+}
 
 /*Contacts component*/
 

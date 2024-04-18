@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="fix мелкие детали" />
+    <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="fix мелкие детали">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +112,7 @@
       <workItem from="1711900370465" duration="6457000" />
       <workItem from="1712212483116" duration="13130000" />
       <workItem from="1712469623782" duration="7984000" />
-      <workItem from="1713439364378" duration="966000" />
+      <workItem from="1713439364378" duration="2678000" />
     </task>
     <task id="LOCAL-00001" summary="Created NavBar">
       <option name="closed" value="true" />
@@ -438,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713439946977</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="fix мелкие детали">
+      <option name="closed" value="true" />
+      <created>1713440529300</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1713440529300</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
