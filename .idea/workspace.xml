@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bdf990a-6beb-41a6-a082-8de7f27a2e40" name="Changes" comment="fix мелкие детали">
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/normalize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,14 +35,12 @@
     &quot;assignee&quot;: &quot;m-bikko&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="14cece12-49e8-497d-adb6-9a7a8aa32cce" />
-        <option name="url" value="https://github.com/m-bikko/daaEnglish.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/m-bikko/daaEnglish.git",
+    "accountId": "14cece12-49e8-497d-adb6-9a7a8aa32cce"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -70,12 +73,19 @@
       <recent name="C:\Users\admin\WebstormProjects\daaEnglish" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/img/cooperation-img" />
       <recent name="$PROJECT_DIR$/img/our-team-img" />
       <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img" />
-      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\our-team-img" />
-      <recent name="C:\Users\admin\WebstormProjects\daaEnglish\img\teachers-img" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -112,7 +122,8 @@
       <workItem from="1711900370465" duration="6457000" />
       <workItem from="1712212483116" duration="13130000" />
       <workItem from="1712469623782" duration="7984000" />
-      <workItem from="1713439364378" duration="2678000" />
+      <workItem from="1713439364378" duration="3901000" />
+      <workItem from="1744324819797" duration="3627000" />
     </task>
     <task id="LOCAL-00001" summary="Created NavBar">
       <option name="closed" value="true" />
@@ -450,7 +461,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713440529300</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="fix мелкие детали">
+      <option name="closed" value="true" />
+      <created>1713442062004</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1713442062004</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

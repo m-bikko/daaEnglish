@@ -1,708 +1,841 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="kz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAA English - Ағылшын тілін үйрену орталығы</title>
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="css/style.css">
-    <title>Daa English</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
-    <header class="header overflow-hidden">
-        <nav class="navbar drop-in-2">
-            <a href="#" class="nav-logo">
-                <img src="img/logo.svg" alt=""/>
-            </a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#our-team" class="nav-link">Біз туралы</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#courses" class="nav-link">Курстар</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#cooperation" class="nav-link">Серіктестік</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#questions" class="nav-link">FAQ</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contacts" class="nav-link">Контактілер</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
+<!-- Loader -->
+<div class="loader-container">
+    <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
 
-    <section class="advertise overflow-hidden">
-        <div class="advertise-container">
-
-            <div class="advertise-content">
-                <h2 class="drop-in-2"><span>Бізбен бірге </span>ағылшын тілін дұрыс жолмен үйрен</h2>
-                <p class="drop-in-3">Әр біреуіміз жаңа тіл үйреніп, мүмкіндіктер әлемін ашайық!</p>
-                <a href="#courses" class="drop-in">Курстарға өту</a>
-
-            </div>
-
-            <div class="advertise-img-box drop-in-4">
-                <img src="img/advertise-img.png" class="advertise-img" alt="">
-            </div>
-        </div>
-    </section>
-
-    <section class="intended-for">
-        <div class="intended-for-container">
-            <h2 class="overflow-hidden drop-in">Курс кімдерге арналады?</h2>
-            <div class="intended-for-list">
-                <div class="intended-for-item overflow-hidden drop-in-3">
-                    <img src="img/intended-for-img/1_image.svg" alt=""/>
-                    <p>
-                         Ағылшын деңгейі Intermediate және одан жоғары жандарға, IELTS
-                        емтиханында жоғары балл алуға ұмтылып, жаңа білім мен мансап мүмкіндіктерін ашатын табанды, әрі жақсы оқуға дайын жандар үшін.
-                    </p>
-                </div>
-                <div class="intended-for-item overflow-hidden drop-in-4">
-                    <img src="img/intended-for-img/2_image.svg" alt=""/>
-                    <p>
-                       Халықаралық ортада жаңа мүмкіндіктер ашқысы келген ,
-                        ағылшын тілін сенімді меңгеруді армандайтын студенттерге арналған.
-                        Студенттер ағылшын тілін академиялық және кәсіби ортада қолдана алатын болады.
-                    </p>
-                </div>
-                <div class="intended-for-item overflow-hidden drop-in-3">
-                    <img src="img/intended-for-img/3_image.svg" alt=""/>
-                    <p>
-                        Ағылшын тілінен ұлттық бірыңғай тестілеуді (ҰБТ) тапсыруға дайындалып, осы емтиханда жоғары нәтижеге жетуге ұмтылатын мектеп оқушыларына арналады.
-                    </p>
-                </div>
-            </div>
-            <a href="#">
-                <span>Бастағым келеді</span>
-                <img src="img/intended-for-img/right-sign.svg" alt=""/>
-            </a>
-        </div>
-    </section>
-
-
-    <section class="our-team" id="our-team">
-        <div class="our-team-container">
-            <h2>БІЗДІҢ <span>ҚҰРАМ</span></h2>
-            <div>
-                <p>DAA English – ағылшын тілін оқытуға маманданған білім беру ұйымы. Біздің мақсатымыз – білім беру саласындағы 20 жылдан астам тәжірибемізге негізделген қызықты және инновациялық сабақтар арқылы студенттерді шабыттандырып, ағылшын тілін үйренуде табысқа жетуге көмектесу.</p>
-                <img src="img/our-team-img/our-team-logo.svg" alt=""/>
-            </div>
-        </div>
-
-        <div class="teachers">
-            <div class="teachers-container left-side">
-                <div class="teachers-item">
-
-                    <img class="teachers-image" src="img/our-team-img/1_teacher.JPG" alt=""/>
-
-                    <div class="teachers-info">
-                        <h2>Дмитрий Черкасов</h2>
-                        <p>
-                            Пенсильвания мемлекеттік университетінің түлегі (АҚШ)<br/>
-                            Магистратура (болашақ стипендиат)<br/>
-                            CELTA иегері<br/>
-                            IELTS (Band 8.0)<br/>
-                            10 жыл тәжірибе
-                        </p>
-                        <div class="teachers-contact">
-                            <a href="https://www.instagram.com/cherkassov.dmitriy?igsh=MXJ5NDBzYzExbWY5Mw=="><img src="img/our-team-img/our-team-inst.png" alt=""/></a>
-                            <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2F2ZK4L2L4ECQOH1&e=AT0h0uqVLVnzsv11m2HAsT0VD_2ozJ5Zfv5hJP1q5SraaZ-Hh2mnGb7tgP4jCqDdOecqa3tEHlvXsvH5WRicpGJf7RpMPVb5ClejoA"><img src="img/our-team-img/our-team-whatsapp.png" alt=""/></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="teachers-container right-side">
-                <div class="teachers-item">
-                    <div class="teachers-info">
-                        <h2>Адильжан Анай</h2>
-                        <p>
-                            СДУ түлегі (грант)<br/>
-                            TKT (Teaching Knowledge Test) иегері<br/>
-                            IELTS (Band 8.0)<br/>
-                            21 жыл тәжірибе
-                        </p>
-                        <div class="teachers-contact">
-                            <a href="https://www.instagram.com/adilzhananay?igsh=bTVnemphMGdkODcx"><img src="img/our-team-img/our-team-inst.png" alt=""/></a>
-                            <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2F2ZK4L2L4ECQOH1&e=AT0h0uqVLVnzsv11m2HAsT0VD_2ozJ5Zfv5hJP1q5SraaZ-Hh2mnGb7tgP4jCqDdOecqa3tEHlvXsvH5WRicpGJf7RpMPVb5ClejoA"><img src="img/our-team-img/our-team-whatsapp.png" alt=""/></a>
-                        </div>
-                    </div>
-
-                    <img class="teachers-image" src="img/our-team-img/2_teacher.JPG" alt=""/>
-                </div>
-
-            </div>
-
-            <div class="teachers-container left-side">
-                <div class="teachers-item">
-
-                    <img class="teachers-image" src="img/our-team-img/3_teacher.JPG" alt=""/>
-
-                    <div class="teachers-info">
-                        <h2>Арман Аргынбаев</h2>
-                        <p>
-                            СДУ түлегі (грант)<br/>
-                            TKT (Teaching Knowledge Test) иегері<br/>
-                            IELTS (Band 8.0) иегері<br/>
-                            22 жыл тәжірибе
-                        </p>
-                        <div class="teachers-contact">
-                            <a href="https://www.instagram.com/daa.english?igsh=ODNuem44cXhpaWRm"><img src="img/our-team-img/our-team-inst.png" alt=""/></a>
-                            <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2F2ZK4L2L4ECQOH1&e=AT0h0uqVLVnzsv11m2HAsT0VD_2ozJ5Zfv5hJP1q5SraaZ-Hh2mnGb7tgP4jCqDdOecqa3tEHlvXsvH5WRicpGJf7RpMPVb5ClejoA"><img src="img/our-team-img/our-team-whatsapp.png" alt=""/></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="courses" id="courses">
-        <div class="courses-container">
-            <h2>Курстар</h2>
-            <div class="courses-list">
-                <div class="courses-item">
-                    <img src="img/courses-img/1_courses-icon.svg" alt=""/>
-                    <div class="courses-item-content">
-                        <h2>IELTS</h2>
-                        <p></p>
-                        <div class="plan-button-container">
-                            <button class="IELTS-plan-button plan-button" onclick="togglePlan('IELTS', 'mooc')">MOOC</button>
-                            <button class="IELTS-plan-button plan-button" onclick="togglePlan('IELTS', 'premium')">Premium</button>
-                            <button class="IELTS-plan-button plan-button" onclick="togglePlan('IELTS', 'vip')">VIP</button>
-                        </div>
-
-                        <div id="IELTS-mooc-info" class="IELTS-plan-info plan-info">
-                            <h2>MOOC Plan</h2>
-                            <ul>
-                                <li>- Courstore платформасына доступ (6 ай)</li>
-                                <li>- 30 видео</li>
-                                <li>- Жаттығулар мен тапсырмалар</li>
-                                <li>- Кері байланыс</li>
-                                <li>- Quizlet карточкасы</li>
-                                <li>- Құны 100000 тг материал</li>
-                            </ul>
-                            <p>Бағасы: 30000 KZT</p>
-                            <button class="buy-btn">
-                                <a href="https://wa.me/77471375756">
-                                    Тіркелу
-                                </a>
-                            </button>
-                        </div>
-
-                        <div id="IELTS-premium-info" class="IELTS-plan-info plan-info">
-                            <h2>Premium Plan</h2>
-                            <ul>
-                                <li>- Courstore платформасына доступ (6 ай)</li>
-                                <li>- 30 видео</li>
-                                <li>- Жаттығулар мен тапсырмалар</li>
-                                <li>- Кері байланыс</li>
-                                <li>- Quizlet карточкасы</li>
-                                <li>- Құны 100000 тг материал</li>
-                                <li class="turn-txt-green">- Telegram канал</li>
-                                <li class="turn-txt-green">- Аптасына 3 рет Zoom сабақтары (2 ай)</li>
-                                <li class="turn-txt-green">- Куратор бақылауы</li>
-                                <li class="turn-txt-green">- Пробный емтихан</li>
-                            </ul>
-                            <p>Бағасы: 120000 KZT</p>
-                            <button class="buy-btn">
-                                <a href="https://wa.me/77471375756">
-                                    Тіркелу
-                                </a>
-                            </button>
-                        </div>
-
-                        <div id="IELTS-vip-info" class="IELTS-plan-info plan-info">
-                            <h2>VIP Plan</h2>
-                            <ul>
-                                <li>- Courstore платформасына доступ (6 ай)</li>
-                                <li>- 30 видео</li>
-                                <li>- Жаттығулар мен тапсырмалар</li>
-                                <li>- Кері байланыс</li>
-                                <li>- Quizlet карточкасы</li>
-                                <li>- Құны 100000 тг материал</li>
-                                <li>- Telegram канал</li>
-                                <li>- Аптасына 3 рет Zoom сабақтары (2 ай)</li>
-                                <li>- Куратор бақылауы</li>
-                                <li>- Пробный емтихан</li>
-                                <li class="turn-txt-green">- 4 рет ағайлармен жеке мастер класс</li>
-                                <li class="turn-txt-green">- Бонус: Шақтар курсы</li>
-                            </ul>
-                            <p>Бағасы: 200000 KZT</p>
-                            <button class="buy-btn">
-                                <a href="https://wa.me/77471375756">
-                                    Тіркелу
-                                </a>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="courses-item">
-                    <img src="img/courses-img/2_courses-icon.svg" alt=""/>
-                    <div class="courses-item-content">
-                        <h2>Орта деңгей</h2>
-                        <p></p>
-                        <div class="plan-button-container">
-                            <button class="Midway-plan-button plan-button" onclick="togglePlan('Midway', 'mooc')">MOOC</button>
-                            <button class="Midway-plan-button plan-button" onclick="togglePlan('Midway', 'premium')">Premium</button>
-                            <button class="Midway-plan-button plan-button" onclick="togglePlan('Midway', 'vip')">VIP</button>
-                        </div>
-
-                        <div id="Midway-mooc-info" class="Midway-plan-info plan-info">
-                            <h2>MOOC Plan</h2>
-                            <ul>
-                                <li>- Courstore платформасына доступ (6 ай)</li>
-                                <li>- 80 видео</li>
-                                <li>- 46 тапсырма</li>
-                                <li>- Шақтар таблицасы</li>
-                                <li>- Quizlet карточкасы</li>
-                                <li>- Graded Readers</li>
-                            </ul>
-                            <p>Бағасы: 19990 KZT</p>
-                            <button class="buy-btn">
-                                <a href="https://wa.me/77471375756">
-                                    Тіркелу
-                                </a>
-                            </button>
-                        </div>
-
-                        <div id="Midway-premium-info" class="Midway-plan-info plan-info">
-                            <h2>Premium Plan</h2>
-                            <ul>
-                                <li>- Courstore платформасына доступ (6 ай)</li>
-                                <li>- 80 видео</li>
-                                <li>- 46 тапсырма</li>
-                                <li>- Шақтар таблицасы</li>
-                                <li>- Quizlet карточкасы</li>
-                                <li>- Graded Readers</li>
-                                <li class="turn-txt-green">- Telegram канал</li>
-                                <li class="turn-txt-green">- Аптасына 3 рет Zoom сабақтары (2 ай)</li>
-                                <li class="turn-txt-green">- Куратор бақылауы</li>
-                                <li class="turn-txt-green">- Үй тапсырмалары</li>
-                            </ul>
-                            <p>Бағасы: 60000 KZT</p>
-                            <button class="buy-btn">
-                                <a href="https://wa.me/77471375756">
-                                    Тіркелу
-                                </a>
-                            </button>
-                        </div>
-
-                        <div id="Midway-vip-info" class="Midway-plan-info plan-info">
-                            <h2>VIP Plan</h2>
-                            <ul>
-                                <li>- Courstore платформасына доступ (6 ай)</li>
-                                <li>- 80 видео</li>
-                                <li>- 46 тапсырма</li>
-                                <li>- Шақтар таблицасы</li>
-                                <li>- Quizlet карточкасы</li>
-                                <li>- Graded Readers</li>
-                                <li>- Telegram канал</li>
-                                <li>- Аптасына 3 рет Zoom сабақтары (2 ай)</li>
-                                <li>- Куратор бақылауы</li>
-                                <li>- Үй тапсырмалары</li>
-                                <li class="turn-txt-green">- Аптасына 1 рет (Speaking Club)</li>
-                            </ul>
-                            <p>Бағасы: 90000 KZT</p>
-                            <button class="buy-btn">
-                                <a href="https://wa.me/77471375756">
-                                    Тіркелу
-                                </a>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="courses-item">
-                    <img src="img/courses-img/3_courses-icon.svg" alt=""/>
-                    <div class="courses-item-content">
-                        <h2>Бастауыш деңгейі</h2>
-                        <p></p>
-                        <div class="plan-button-container">
-                            <button class="Easy-Start-plan-button plan-button" onclick="togglePlan('Easy-Start', 'mooc')">MOOC</button>
-                            <button class="Easy-Start-plan-button plan-button" onclick="togglePlan('Easy-Start', 'premium')">Premium</button>
-                            <button class="Easy-Start-plan-button plan-button" onclick="togglePlan('Easy-Start', 'vip')">VIP</button>
-                        </div>
-
-                        <div id="Easy-Start-mooc-info" class="Easy-Start-plan-info plan-info">
-                            <h2>MOOC Plan</h2>
-                            <ul>
-                                <li>- Courstore платформасына доступ (6 ай)</li>
-                                <li>- 80 видео</li>
-                                <li>- 34 тапсырма</li>
-                                <li>- 17 сынақ</li>
-                                <li>- Шақтар таблицасы</li>
-                                <li>- Quizlet карточкасы</li>
-                                <li>- Graded Readers</li>
-                            </ul>
-
-                            <p>Бағасы: 19990 KZT</p>
-                            <button class="buy-btn">
-                                <a href="https://wa.me/77471375756">
-                                    Тіркелу
-                                </a>
-                            </button>
-                        </div>
-
-                        <div id="Easy-Start-premium-info" class="Easy-Start-plan-info plan-info">
-                            <h2>Premium Plan</h2>
-                            <ul>
-                                <li>- Courstore платформасына доступ (6 ай)</li>
-                                <li>- 80 видео</li>
-                                <li>- 46 тапсырма</li>
-                                <li>- Шақтар таблицасы</li>
-                                <li>- Quizlet карточкасы</li>
-                                <li>- Graded Readers</li>
-                                <li class="turn-txt-green">- Telegram канал</li>
-                                <li class="turn-txt-green">- Аптасына 3 рет Zoom сабақтары (2 ай)</li>
-                                <li class="turn-txt-green">- Куратор бақылауы</li>
-                                <li class="turn-txt-green">- Үй тапсырмалары</li>
-                            </ul>
-                            <p>Бағасы: 60000 KZT</p>
-                            <button class="buy-btn">
-                                <a href="https://wa.me/77471375756">
-                                    Тіркелу
-                                </a>
-                            </button>
-                        </div>
-
-                        <div id="Easy-Start-vip-info" class="Easy-Start-plan-info plan-info">
-                            <h2>VIP Plan</h2>
-                            <ul>
-                                <li>- Courstore платформасына доступ (6 ай)</li>
-                                <li>- 80 видео</li>
-                                <li>- 46 тапсырма</li>
-                                <li>- Шақтар таблицасы</li>
-                                <li>- Quizlet карточкасы</li>
-                                <li>- Graded Readers</li>
-                                <li>- Telegram канал</li>
-                                <li>- Аптасына 3 рет Zoom сабақтары (2 ай)</li>
-                                <li>- Куратор бақылауы</li>
-                                <li>- Үй тапсырмалары</li>
-                                <li class="turn-txt-green">- Аптасына 1 рет (Speaking Club)</li>
-                            </ul>
-                            <p>Бағасы: 90000 KZT</p>
-                            <button class="buy-btn">
-                                    <a href="https://wa.me/77471375756">
-                                    Тіркелу
-                                </a>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="courses-item">
-                    <img src="img/courses-img/3_courses-icon.svg" alt=""/>
-                    <div class="courses-item-content">
-                        <h2>Барлық деңгейі</h2>
-                        <p></p>
-                        <div class="">
-                            <button class="Fresh-Start-plan-button plan-button" onclick="togglePlan('Fresh-Start', 'mooc')">MOOC</button>
-                        </div>
-                        <div id="Fresh-Start-mooc-info" class="Fresh-Start-plan-info plan-info">
-                            <h2>MOOC</h2>
-                            <ul>
-                                <li class="turn-txt-green">- Beginner -> Intermediate</li>
-                                <li>- Courstore(6 ай)</li>
-                                <li>- 128 видео-материал</li>
-                                <li>- 34 тапсырма</li>
-                                <li>- 28 сынақ</li>
-                                <li>- All inclusive (Listening, Speaking, Reading, Vocabulary)</li>
-                                <li>- Graded Readers</li>
-                            </ul>
-
-                            <p>Бағасы: 19990 KZT</p>
-                            <button class="buy-btn">
-                                <a href="https://wa.me/77471375756">
-                                    Тіркелу
-                                </a>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="free-knowledge">
-        <div class="free-knowledge-container">
-            <h2>Пробный сабақ — тегін!</h2>
-            <p>
-                Біздің тегін сабағымызға қосылыңыз!<br/>
-                Жарқын болашағың үшін қадамды қазірден баста.
-            </p>
-            <div class="free-knowledge-list">
-                <div class="free-knowledge-item">
-                    <img src="img/free-knowledge-img/3_free-knowledge.svg" alt=""/>
-                    <div class="free-knowledge-item-content">
-                        <p>General English тегін сынақ сабағы</p>
-                        <a href="https://chat.whatsapp.com/IKLN1EHECrwDjoWlXin0S3">Бастау</a>
-                    </div>
-                </div>
-                <div class="free-knowledge-item">
-                    <img src="img/free-knowledge-img/1_free-knowledge.svg" alt=""/>
-                    <div class="free-knowledge-item-content">
-                        <p>Ағылшын тілі деңгейін анықтау</p>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQK5j8YX405_lVuv_8y3p6V-vols90W5gRUJa6I3GOUPTZBg/viewform">Бастау</a>
-                    </div>
-                </div>
-                <div class="free-knowledge-item">
-                    <img src="img/free-knowledge-img/2_free-knowledge.svg" alt=""/>
-                    <div class="free-knowledge-item-content">
-                        <p>IELTS тегін сынақ сабағы</p>
-                        <a href="https://chat.whatsapp.com/GvjTBpouv1PD1ztRipBsAP">Бастау</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <section class="cooperation" id="cooperation">
-        <div class="cooperation-container">
-            <h2>СЕРІКТЕСТІК</h2>
-            <p>Біздің курс әр түрлі салалардағы озық академиялық беделімен және ғылыми-зерттеу жұмыстарымен танымал елдің жетекші университетімен серіктестік орнатты.
-                Осы серіктестік арқылы біз академиялық қатаңдық пен  жоғары білім деңгейіне кепілдік бере аламыз.</p>
-            <div class="cooperation-logos">
-                <div class="cooperation-logo">
-                    <img src="img/cooperation-img/1_cooperation.svg" alt="SDU University"/>
-                </div>
-                <div class="cooperation-logo">
-                    <img src="img/cooperation-img/2_cooperation.png" alt="CEC"/>
-                </div>
-                <div class="cooperation-logo">
-                    <img src="img/cooperation-img/3_cooperation.png" alt="Kundelik KZ"/>
-                </div>
-                <div class="cooperation-logo">
-                    <img src="img/cooperation-img/4_cooperation.png" alt="British Council"/>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="students">
-        <div class="students-container">
-            <h2>СТУДЕНТТЕР</h2>
-            <ul class="cases">
-                <li class="case">
-
-                    <p><div>Case - Arsen.</div> Біздің студентіміз Арсен, алғашқы сабағына келген кезінде, шамамен 6.0 баллға бағалан болатынбыз. Алайда, 2 айлық IELTS курсын өту арқасында 7.5 балл иегері болып аяқтады.</p>
-                    <div class="results">
-                        <div class="results-by-section">
-                            <div class="results-by-section-single">
-                                <img src="./img/IELTS-res/Listening.png" alt="">
-                                <p>9.0</p>
-                            </div>
-                            <div class="results-by-section-single">
-                                <img src="./img/IELTS-res/Reading.png" alt="">
-                                <p>7.5</p>
-                            </div>
-                            <div class="results-by-section-single">
-                                <img src="./img/IELTS-res/Writing.png" alt="">
-                                <p>6.0</p>
-                            </div>
-                            <div class="results-by-section-single">
-                                <img src="./img/IELTS-res/Speaking.png" alt="">
-                                <p>7.5</p>
-                            </div>
-                        </div>
-                        <div class="results-total">
-                            <div class="results-by-section-single">
-                                <img class="results-by-section-single-total" src="./img/IELTS-res/Total.png" alt="">
-                                <p>7.5</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="case">
-
-                    <p><div>Case - Azamat.</div> Студентіміз - Азамат, 1.5 ай дайындық ішінде IELTS көрсеткіштерін 1.0 баллға арттырып алды.</p>
-                    <div class="results">
-                        <div class="results-by-section">
-                            <div class="results-by-section-single">
-                                <img src="./img/IELTS-res/Listening.png" alt="">
-                                <p>8.0</p>
-                            </div>
-                            <div class="results-by-section-single">
-                                <img src="./img/IELTS-res/Reading.png" alt="">
-                                <p>7.5</p>
-                            </div>
-                            <div class="results-by-section-single">
-                                <img src="./img/IELTS-res/Writing.png" alt="">
-                                <p>6.5</p>
-                            </div>
-                            <div class="results-by-section-single">
-                                <img src="./img/IELTS-res/Speaking.png" alt="">
-                                <p>7.0</p>
-                            </div>
-                        </div>
-                        <div class="results-total">
-                            <div class="results-by-section-single">
-                                <img class="results-by-section-single-total" src="./img/IELTS-res/Total.png" alt="">
-                                <p>7.5</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="case">
-                    <p><div>Case - Ayaulym.</div> Аяулым шәкіртіміз, 2 айлық IELTS курсын сатып алып, еңбегін ақтап 7.0 балл иегері болды </p>
-                    <div class="results">
-                        <div class="results-by-section">
-                            <div class="results-by-section-single">
-                                <img src="./img/IELTS-res/Listening.png" alt="">
-                                <p>8.0</p>
-                            </div>
-                            <div class="results-by-section-single">
-                                <img src="./img/IELTS-res/Reading.png" alt="">
-                                <p>7.0</p>
-                            </div>
-                            <div class="results-by-section-single">
-                                <img src="./img/IELTS-res/Writing.png" alt="">
-                                <p>6.0</p>
-                            </div>
-                            <div class="results-by-section-single">
-                                <img src="./img/IELTS-res/Speaking.png" alt="">
-                                <p>6.5</p>
-                            </div>
-                        </div>
-                        <div class="results-total">
-                            <div class="results-by-section-single">
-                                <img class="results-by-section-single-total" src="./img/IELTS-res/Total.png" alt="">
-                                <p>7.0</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-            </ul>
-        </div>
-    </section>
-
-    <section class="questions" id="questions">
-        <div class="questions-container">
-            <h2>Жиі қойылатын сұрақтар</h2>
-            <div class="accordion-container">
-                <hr>
-                <button class="accordion">Қандай оқыту форматы қолданылады (онлайн, оффлайн, гибридті)?</button>
-                <div class="panel">
-                    <p>Біз студенттерге онлайн және оффлайн оқумен қатар, олардың қалауы мен мүмкіндіктеріне қарай,
-                        сабаққа қатысу арасында таңдау жасауға мүмкіндік беретін гибридті форматты да ұсынамыз.</p>
-                </div>
-                <hr>
-                <button class="accordion">Курсты аяқтаған жағдайда сертификат болады ма?</button>
-                <div class="panel">
-                    <p>Иә, курсты сәтті аяқтаған жағдайда сізге сертификат беріледі.</p>
-                </div>
-                <hr>
-                <button class="accordion">Мен неге cіздерді таңдауым керек?</button>
-                <div class="panel">
-                    <p>
-                        Бұл ағылшын курсын оның жоғары рейтингтері мен студенттердің оң пікірлері, икемді оқу кестелері және сапалы оқу материалдарына қолжетімділігі үшін таңдаңыз.
-                        Сонымен қатар, курс студенттердің белсенді қатысуын және тұрақты куратордың кері байланысын қамтамасыз ете отырып, ағылшын тілін тиімді үйренуге ықпал етеді.
-                    </p>
-                </div>
-                <hr>
-                <button class="accordion">Бір деңгейді қанша уақытта аяқтаймын?</button>
-                <div class="panel">
-                    <p> Cабақтың форматына, қарқындылығына және оқушының өзіне байланысты.
-                        Beginner мен Elementary -> 2.5 ай,
-                        Pre-Intermediate пен Intermediate -> 2.5-3 ай уақытты алады.</p>
-                </div>
-                <hr>
-                <button class="accordion">Оқу процессі қалай өтеді?</button>
-                <div class="panel">
-                    <p> Оқыту Graded readers,Quizlet карточкалары,аудиокітаптар,шақтар таблицасына негізделген.
-                        Электрондық материалдар 6 айға қол жетімді.
-                        Сондай-ақ Courstore, Zoom платформалары қосымша оқу құралы ретінде қолданылады.
-                        </p>
-                </div>
-                <hr>
-            </div>
-        </div>
-    </section>
-
-    <section class="contacts" id="contacts">
-        <div class="contacts-container">
-            <div class="location-link">
-                <h2>Бізбен қалай байланысуға болады?</h2>
+<!-- Header -->
+<header class="site-header">
+    <div class="container">
+        <div class="header-inner">
+            <div class="logo">
                 <a href="#">
-                    <img src="img/contacts-img/location-icon.svg" alt=""/>
-                    <p>SDU University,проспект Абылай хана, 1/1, Каскелен</p>
+                    <img src="img/logo.svg" alt="DAA English Logo">
                 </a>
             </div>
 
-            <div class="link-list">
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">Біз туралы</a></li>
+                    <li><a href="#courses" class="nav-link">Курстар</a></li>
+                    <li><a href="#team" class="nav-link">Құрам</a></li>
+                    <li><a href="#partners" class="nav-link">Серіктестік</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="#contact" class="nav-link">Контактілер</a></li>
+                </ul>
+            </nav>
 
-                <div class="link-item">
-                    <a href="https://wa.me/77471375756">
-                        <span>Өту</span>
-                        <div class="icon">
-                            <svg width="58" height="45" viewBox="0 0 58 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M41.0833 22.5H7.25" stroke="#33363F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M52.7721 22.2813L37.4378 13.7833C36.9046 13.4878 36.25 13.8734 36.25 14.483V30.517C36.25 31.1266 36.9046 31.5122 37.4378 31.2167L52.7721 22.7187C52.9439 22.6235 52.9439 22.3765 52.7721 22.2813Z" fill="#33363F"/>
-                            </svg>
-                        </div>
-                        <div class="overlay"></div>
-                    </a>
-                    <div class="social-box">
-                        <img src="img/contacts-img/watsapp-icon.png" alt=""/>
-                        <p>WhatsApp</p>
-                    </div>
-                </div>
-
-                <div class="link-item">
-                    <a href="https://www.instagram.com/daa.english/">
-                        <span>Өту</span>
-                        <div class="icon">
-                            <svg width="58" height="45" viewBox="0 0 58 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M41.0833 22.5H7.25" stroke="#33363F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M52.7721 22.2813L37.4378 13.7833C36.9046 13.4878 36.25 13.8734 36.25 14.483V30.517C36.25 31.1266 36.9046 31.5122 37.4378 31.2167L52.7721 22.7187C52.9439 22.6235 52.9439 22.3765 52.7721 22.2813Z" fill="#33363F"/>
-                            </svg>
-                        </div>
-                    </a>
-                    <div class="social-box">
-                        <img src="img/contacts-img/instagramm-icon.png" alt=""/>
-                        <p>Instagram</p>
-                    </div>
-                </div>
-
+            <div class="header-actions">
+                <button class="language-toggle">KZ</button>
+                <button class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </div>
-    </section>
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="logo-info">
-                <img src="img/logo.svg" alt=""/>
-                <div class="logo-info-container">
-                    <div class="stick"></div>
-                    <p>Knowledge is life with wings.</p>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title"><span>Бізбен бірге</span> ағылшын тілін дұрыс жолмен үйрен</h1>
+            <p class="hero-subtitle">Әр біреуіміз жаңа тіл үйреніп, мүмкіндіктер әлемін ашайық!</p>
+            <div class="hero-actions">
+                <a href="#courses" class="btn btn-primary">Курстарға өту</a>
+                <a href="#trial" class="btn btn-secondary">Тегін сабақ</a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-value" data-count="22">0</div>
+                    <div class="stat-label">Жыл тәжірибе</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" data-count="10000">0</div>
+                    <div class="stat-label">Студенттер</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" data-count="97">0</div>
+                    <div class="stat-label">Сәттілік көрсеткіші</div>
                 </div>
             </div>
-            <div class="courses-info">
-                <h2>Курстар</h2>
-                <ul>
+        </div>
+
+        <div class="hero-decoration">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Target Audience Section -->
+<section class="target-section" id="about">
+    <div class="container">
+        <h2 class="section-title">Курс кімдерге арналады?</h2>
+
+        <div class="cards-container">
+            <div class="target-card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" class="icon icon-target">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                        <path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/>
+                        <circle cx="12" cy="12" r="2"/>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <p>Ағылшын деңгейі Intermediate және одан жоғары жандарға, IELTS емтиханында жоғары балл алуға ұмтылып, жаңа білім мен мансап мүмкіндіктерін ашатын табанды, әрі жақсы оқуға дайын жандар үшін.</p>
+                </div>
+            </div>
+
+            <div class="target-card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" class="icon icon-student">
+                        <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <p>Халықаралық ортада жаңа мүмкіндіктер ашқысы келген, ағылшын тілін сенімді меңгеруді армандайтын студенттерге арналған. Студенттер ағылшын тілін академиялық және кәсіби ортада қолдана алатын болады.</p>
+                </div>
+            </div>
+
+            <div class="target-card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" class="icon icon-exam">
+                        <path d="M9 4H7v2H5v12h2v2h2v-2h2V6H9V4zm0 12H7V8h2v8z"/>
+                        <path d="M19 8h-2V4h-2v4h-2v7h2v5h2v-5h2V8zm-2 5h-2v-3h2v3z"/>
+                    </svg>
+                </div>
+                <div class="card-content">
+                    <p>Ағылшын тілінен ұлттық бірыңғай тестілеуді (ҰБТ) тапсыруға дайындалып, осы емтиханда жоғары нәтижеге жетуге ұмтылатын мектеп оқушыларына арналады.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about-section">
+    <div class="container">
+        <h2 class="section-title" id="team">БІЗДІҢ <span>ҚҰРАМ</span></h2>
+
+        <div class="about-intro">
+            <div class="about-text">
+                <p>DAA English – ағылшын тілін оқытуға маманданған білім беру ұйымы. Біздің мақсатымыз – білім беру саласындағы 20 жылдан астам тәжірибемізге негізделген қызықты және инновациялық сабақтар арқылы студенттерді шабыттандырып, ағылшын тілін үйренуде табысқа жетуге көмектесу.</p>
+            </div>
+        </div>
+
+        <div class="team-gallery">
+            <div class="team-member">
+                <div class="member-photo">
+                    <div class="member-shape">
+                        <img src="./img/our-team-img/1_teacher.JPG" alt="">
+                    </div>
+                </div>
+                <div class="member-info">
+                    <h3 class="member-name">Дмитрий Черкасов</h3>
+                    <ul class="member-credentials">
+                        <li>Пенсильвания мемлекеттік университетінің түлегі (АҚШ)</li>
+                        <li>Магистратура (болашақ стипендиат)</li>
+                        <li>CELTA иегері</li>
+                        <li>IELTS (Band 8.0)</li>
+                        <li>10 жыл тәжірибе</li>
+                    </ul>
+                    <div class="member-social">
+                        <a href="https://www.instagram.com/cherkassov.dmitriy" class="social-link">
+                            <svg viewBox="0 0 24 24" class="icon icon-instagram">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/message/2ZK4L2L4ECQOH1" class="social-link">
+                            <svg viewBox="0 0 24 24" class="icon icon-whatsapp">
+                                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <div class="member-photo">
+                    <div class="member-shape">
+                        <img src="./img/our-team-img/2_teacher.JPG" alt="">
+                    </div>
+                </div>
+                <div class="member-info">
+                    <h3 class="member-name">Адильжан Анай</h3>
+                    <ul class="member-credentials">
+                        <li>СДУ түлегі (грант)</li>
+                        <li>TKT (Teaching Knowledge Test) иегері</li>
+                        <li>IELTS (Band 8.0)</li>
+                        <li>21 жыл тәжірибе</li>
+                    </ul>
+                    <div class="member-social">
+                        <a href="https://www.instagram.com/adilzhananay" class="social-link">
+                            <svg viewBox="0 0 24 24" class="icon icon-instagram">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/message/2ZK4L2L4ECQOH1" class="social-link">
+                            <svg viewBox="0 0 24 24" class="icon icon-whatsapp">
+                                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <div class="member-photo">
+                    <div class="member-shape">
+                        <img src="./img/our-team-img/3_teacher.JPG" alt="">
+                    </div>
+                </div>
+                <div class="member-info">
+                    <h3 class="member-name">Арман Аргынбаев</h3>
+                    <ul class="member-credentials">
+                        <li>СДУ түлегі (грант)</li>
+                        <li>TKT (Teaching Knowledge Test) иегері</li>
+                        <li>IELTS (Band 8.0) иегері</li>
+                        <li>22 жыл тәжірибе</li>
+                    </ul>
+                    <div class="member-social">
+                        <a href="https://www.instagram.com/daa.english" class="social-link">
+                            <svg viewBox="0 0 24 24" class="icon icon-instagram">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/message/2ZK4L2L4ECQOH1" class="social-link">
+                            <svg viewBox="0 0 24 24" class="icon icon-whatsapp">
+                                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Courses Section -->
+<section class="courses-section" id="courses">
+    <div class="container">
+        <h2 class="section-title">Курстар</h2>
+
+        <div class="courses-list">
+            <div class="course-card">
+                <div class="course-header">
+                    <div class="course-icon">
+                        <svg viewBox="0 0 24 24" class="icon icon-ielts">
+                            <path d="M17 3h-10c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-14c0-1.1-.9-2-2-2zm0 16h-10v-14h10v14z"/>
+                            <path d="M15 9h-6c-.55 0-1 .45-1 1s.45 1 1 1h6c.55 0 1-.45 1-1s-.45-1-1-1z"/>
+                            <path d="M15 12h-6c-.55 0-1 .45-1 1s.45 1 1 1h6c.55 0 1-.45 1-1s-.45-1-1-1z"/>
+                            <path d="M15 15h-6c-.55 0-1 .45-1 1s.45 1 1 1h6c.55 0 1-.45 1-1s-.45-1-1-1z"/>
+                        </svg>
+                    </div>
+                    <h3 class="course-title">IELTS</h3>
+                </div>
+
+                <div class="course-tabs">
+
+    <button class="tab-btn active" data-tab="ielts-mooc">MOOC</button>
+    <button class="tab-btn" data-tab="ielts-premium">Premium</button>
+    <button class="tab-btn" data-tab="ielts-vip">VIP</button>
+</div>
+
+<div class="course-content">
+    <div class="tab-content active" id="ielts-mooc">
+        <ul class="feature-list">
+            <li>Courstore платформасына доступ (6 ай)</li>
+            <li>30 видео</li>
+            <li>Жаттығулар мен тапсырмалар</li>
+            <li>Кері байланыс</li>
+            <li>Quizlet карточкасы</li>
+            <li>Құны 100000 тг материал</li>
+        </ul>
+        <div class="course-price">
+            <span class="price-amount">30 000</span>
+            <span class="price-currency">₸</span>
+        </div>
+        <a href="https://wa.me/77471375756" class="btn btn-primary btn-block">Тіркелу</a>
+    </div>
+
+    <div class="tab-content" id="ielts-premium">
+        <ul class="feature-list">
+            <li>Courstore платформасына доступ (6 ай)</li>
+            <li>30 видео</li>
+            <li>Жаттығулар мен тапсырмалар</li>
+            <li>Кері байланыс</li>
+            <li>Quizlet карточкасы</li>
+            <li>Құны 100000 тг материал</li>
+            <li class="highlighted">Telegram канал</li>
+            <li class="highlighted">Аптасына 3 рет Zoom сабақтары (2 ай)</li>
+            <li class="highlighted">Куратор бақылауы</li>
+            <li class="highlighted">Пробный емтихан</li>
+        </ul>
+        <div class="course-price">
+            <span class="price-amount">120 000</span>
+            <span class="price-currency">₸</span>
+        </div>
+        <a href="https://wa.me/77471375756" class="btn btn-primary btn-block">Тіркелу</a>
+    </div>
+
+    <div class="tab-content" id="ielts-vip">
+        <ul class="feature-list">
+            <li>Courstore платформасына доступ (6 ай)</li>
+            <li>30 видео</li>
+            <li>Жаттығулар мен тапсырмалар</li>
+            <li>Кері байланыс</li>
+            <li>Quizlet карточкасы</li>
+            <li>Құны 100000 тг материал</li>
+            <li>Telegram канал</li>
+            <li>Аптасына 3 рет Zoom сабақтары (2 ай)</li>
+            <li>Куратор бақылауы</li>
+            <li>Пробный емтихан</li>
+            <li class="highlighted">4 рет ағайлармен жеке мастер класс</li>
+            <li class="highlighted">Бонус: Шақтар курсы</li>
+        </ul>
+        <div class="course-price">
+            <span class="price-amount">200 000</span>
+            <span class="price-currency">₸</span>
+        </div>
+        <a href="https://wa.me/77471375756" class="btn btn-primary btn-block">Тіркелу</a>
+    </div>
+</div>
+</div>
+
+<div class="course-card">
+    <div class="course-header">
+        <div class="course-icon">
+            <svg viewBox="0 0 24 24" class="icon icon-general">
+                <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7z"/>
+                <path d="M12 8v5l4.25 2.52.77-1.28-3.52-2.09V8z"/>
+            </svg>
+        </div>
+        <h3 class="course-title">Орта деңгей</h3>
+    </div>
+
+    <div class="course-tabs">
+        <button class="tab-btn active" data-tab="midway-mooc">MOOC</button>
+        <button class="tab-btn" data-tab="midway-premium">Premium</button>
+        <button class="tab-btn" data-tab="midway-vip">VIP</button>
+    </div>
+
+    <div class="course-content">
+        <div class="tab-content active" id="midway-mooc">
+            <ul class="feature-list">
+                <li>Courstore платформасына доступ (6 ай)</li>
+                <li>80 видео</li>
+                <li>46 тапсырма</li>
+                <li>Шақтар таблицасы</li>
+                <li>Quizlet карточкасы</li>
+                <li>Graded Readers</li>
+            </ul>
+            <div class="course-price">
+                <span class="price-amount">19 990</span>
+                <span class="price-currency">₸</span>
+            </div>
+            <a href="https://wa.me/77471375756" class="btn btn-primary btn-block">Тіркелу</a>
+        </div>
+
+        <div class="tab-content" id="midway-premium">
+            <ul class="feature-list">
+                <li>Courstore платформасына доступ (6 ай)</li>
+                <li>80 видео</li>
+                <li>46 тапсырма</li>
+                <li>Шақтар таблицасы</li>
+                <li>Quizlet карточкасы</li>
+                <li>Graded Readers</li>
+                <li class="highlighted">Telegram канал</li>
+                <li class="highlighted">Аптасына 3 рет Zoom сабақтары (2 ай)</li>
+                <li class="highlighted">Куратор бақылауы</li>
+                <li class="highlighted">Үй тапсырмалары</li>
+            </ul>
+            <div class="course-price">
+                <span class="price-amount">60 000</span>
+                <span class="price-currency">₸</span>
+            </div>
+            <a href="https://wa.me/77471375756" class="btn btn-primary btn-block">Тіркелу</a>
+        </div>
+
+        <div class="tab-content" id="midway-vip">
+            <ul class="feature-list">
+                <li>Courstore платформасына доступ (6 ай)</li>
+                <li>80 видео</li>
+                <li>46 тапсырма</li>
+                <li>Шақтар таблицасы</li>
+                <li>Quizlet карточкасы</li>
+                <li>Graded Readers</li>
+                <li>Telegram канал</li>
+                <li>Аптасына 3 рет Zoom сабақтары (2 ай)</li>
+                <li>Куратор бақылауы</li>
+                <li>Үй тапсырмалары</li>
+                <li class="highlighted">Аптасына 1 рет (Speaking Club)</li>
+            </ul>
+            <div class="course-price">
+                <span class="price-amount">90 000</span>
+                <span class="price-currency">₸</span>
+            </div>
+            <a href="https://wa.me/77471375756" class="btn btn-primary btn-block">Тіркелу</a>
+        </div>
+    </div>
+</div>
+
+<div class="course-card">
+    <div class="course-header">
+        <div class="course-icon">
+            <svg viewBox="0 0 24 24" class="icon icon-beginner">
+                <path d="M9 11.75c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zm6 0c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-.29.02-.58.05-.86 2.36-1.05 4.23-2.98 5.21-5.37C11.07 8.33 14.05 10 17.42 10c.78 0 1.53-.09 2.25-.26.21.71.33 1.47.33 2.26 0 4.41-3.59 8-8 8z"/>
+            </svg>
+        </div>
+        <h3 class="course-title">Бастауыш деңгейі</h3>
+    </div>
+
+    <div class="course-tabs">
+        <button class="tab-btn active" data-tab="beginner-mooc">MOOC</button>
+        <button class="tab-btn" data-tab="beginner-premium">Premium</button>
+        <button class="tab-btn" data-tab="beginner-vip">VIP</button>
+    </div>
+
+    <div class="course-content">
+        <div class="tab-content active" id="beginner-mooc">
+            <ul class="feature-list">
+                <li>Courstore платформасына доступ (6 ай)</li>
+                <li>80 видео</li>
+                <li>34 тапсырма</li>
+                <li>17 сынақ</li>
+                <li>Шақтар таблицасы</li>
+                <li>Quizlet карточкасы</li>
+                <li>Graded Readers</li>
+            </ul>
+            <div class="course-price">
+                <span class="price-amount">19 990</span>
+                <span class="price-currency">₸</span>
+            </div>
+            <a href="https://wa.me/77471375756" class="btn btn-primary btn-block">Тіркелу</a>
+        </div>
+
+        <div class="tab-content" id="beginner-premium">
+            <ul class="feature-list">
+                <li>Courstore платформасына доступ (6 ай)</li>
+                <li>80 видео</li>
+                <li>46 тапсырма</li>
+                <li>Шақтар таблицасы</li>
+                <li>Quizlet карточкасы</li>
+                <li>Graded Readers</li>
+                <li class="highlighted">Telegram канал</li>
+                <li class="highlighted">Аптасына 3 рет Zoom сабақтары (2 ай)</li>
+                <li class="highlighted">Куратор бақылауы</li>
+                <li class="highlighted">Үй тапсырмалары</li>
+            </ul>
+            <div class="course-price">
+                <span class="price-amount">60 000</span>
+                <span class="price-currency">₸</span>
+            </div>
+            <a href="https://wa.me/77471375756" class="btn btn-primary btn-block">Тіркелу</a>
+        </div>
+
+        <div class="tab-content" id="beginner-vip">
+            <ul class="feature-list">
+                <li>Courstore платформасына доступ (6 ай)</li>
+                <li>80 видео</li>
+                <li>46 тапсырма</li>
+                <li>Шақтар таблицасы</li>
+                <li>Quizlet карточкасы</li>
+                <li>Graded Readers</li>
+                <li>Telegram канал</li>
+                <li>Аптасына 3 рет Zoom сабақтары (2 ай)</li>
+                <li>Куратор бақылауы</li>
+                <li>Үй тапсырмалары</li>
+                <li class="highlighted">Аптасына 1 рет (Speaking Club)</li>
+            </ul>
+            <div class="course-price">
+                <span class="price-amount">90 000</span>
+                <span class="price-currency">₸</span>
+            </div>
+            <a href="https://wa.me/77471375756" class="btn btn-primary btn-block">Тіркелу</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="courses-extras">
+    <div class="course-card wide">
+        <div class="course-header">
+            <div class="course-icon">
+                <svg viewBox="0 0 24 24" class="icon icon-alllevels">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93s3.06-7.44 7-7.93v15.86zm2-15.86c1.03.13 2 .45 2.87.93H13v-.93zM13 7h5.24c.25.31.48.65.68 1H13V7zm0 3h6.74c.08.33.15.66.19 1H13v-1zm0 9.93V19h2.87c-.87.48-1.84.8-2.87.93zM18.24 17H13v-1h5.92c-.2.35-.43.69-.68 1zm1.5-3H13v-1h6.93c-.04.34-.11.67-.19 1z"/>
+                </svg>
+            </div>
+            <h3 class="course-title">Барлық деңгейі</h3>
+        </div>
+
+        <div class="course-content single">
+            <ul class="feature-list">
+                <li class="highlighted">Beginner -> Intermediate</li>
+                <li>Courstore(6 ай)</li>
+                <li>128 видео-материал</li>
+                <li>34 тапсырма</li>
+                <li>28 сынақ</li>
+                <li>All inclusive (Listening, Speaking, Reading, Vocabulary)</li>
+                <li>Graded Readers</li>
+            </ul>
+            <div class="course-price">
+                <span class="price-amount">19 990</span>
+                <span class="price-currency">₸</span>
+            </div>
+            <a href="https://wa.me/77471375756" class="btn btn-primary btn-block">Тіркелу</a>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<!-- Results Section -->
+<section class="results-section" id="results">
+    <div class="container">
+        <h2 class="section-title">СТУДЕНТТЕР</h2>
+
+        <div class="results-slider">
+            <div class="result-card active">
+                <div class="result-header">
+                    <div class="student-info">
+                        <div class="student-photo"></div>
+                        <h3 class="student-name">Case - Arsen</h3>
+                    </div>
+                    <div class="result-badge">
+                        <span class="badge-label">IELTS</span>
+                        <span class="badge-value">7.5</span>
+                    </div>
+                </div>
+
+                <div class="result-content">
+                    <p class="result-description">Біздің студентіміз Арсен, алғашқы сабағына келген кезінде, шамамен 6.0 баллға бағалан болатынбыз. Алайда, 2 айлық IELTS курсын өту арқасында 7.5 балл иегері болып аяқтады.</p>
+
+                    <div class="score-breakdown">
+                        <div class="score-item">
+                            <div class="score-label">Listening</div>
+                            <div class="score-value">9.0</div>
+                        </div>
+                        <div class="score-item">
+                            <div class="score-label">Reading</div>
+                            <div class="score-value">7.5</div>
+                        </div>
+                        <div class="score-item">
+                            <div class="score-label">Writing</div>
+                            <div class="score-value">6.0</div>
+                        </div>
+                        <div class="score-item">
+                            <div class="score-label">Speaking</div>
+                            <div class="score-value">7.5</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="result-card">
+                <div class="result-header">
+                    <div class="student-info">
+                        <div class="student-photo"></div>
+                        <h3 class="student-name">Case - Azamat</h3>
+                    </div>
+                    <div class="result-badge">
+                        <span class="badge-label">IELTS</span>
+                        <span class="badge-value">7.5</span>
+                    </div>
+                </div>
+
+                <div class="result-content">
+                    <p class="result-description">Студентіміз - Азамат, 1.5 ай дайындық ішінде IELTS көрсеткіштерін 1.0 баллға арттырып алды.</p>
+
+                    <div class="score-breakdown">
+                        <div class="score-item">
+                            <div class="score-label">Listening</div>
+                            <div class="score-value">8.0</div>
+                        </div>
+                        <div class="score-item">
+                            <div class="score-label">Reading</div>
+                            <div class="score-value">7.5</div>
+                        </div>
+                        <div class="score-item">
+                            <div class="score-label">Writing</div>
+                            <div class="score-value">6.5</div>
+                        </div>
+                        <div class="score-item">
+                            <div class="score-label">Speaking</div>
+                            <div class="score-value">7.0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="result-card">
+                <div class="result-header">
+                    <div class="student-info">
+                        <div class="student-photo"></div>
+                        <h3 class="student-name">Case - Ayaulym</h3>
+                    </div>
+                    <div class="result-badge">
+                        <span class="badge-label">IELTS</span>
+                        <span class="badge-value">7.0</span>
+                    </div>
+                </div>
+
+                <div class="result-content">
+                    <p class="result-description">Аяулым шәкіртіміз, 2 айлық IELTS курсын сатып алып, еңбегін ақтап 7.0 балл иегері болды.</p>
+
+                    <div class="score-breakdown">
+                        <div class="score-item">
+                            <div class="score-label">Listening</div>
+                            <div class="score-value">8.0</div>
+                        </div>
+                        <div class="score-item">
+                            <div class="score-label">Reading</div>
+                            <div class="score-value">7.0</div>
+                        </div>
+                        <div class="score-item">
+                            <div class="score-label">Writing</div>
+                            <div class="score-value">6.0</div>
+                        </div>
+                        <div class="score-item">
+                            <div class="score-label">Speaking</div>
+                            <div class="score-value">6.5</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-controls">
+            <button class="slider-dot active" data-index="0"></button>
+            <button class="slider-dot" data-index="1"></button>
+            <button class="slider-dot" data-index="2"></button>
+        </div>
+
+        <div class="results-cta">
+            <p>Сіз де жоғары нәтиже көрсете аласыз!</p>
+            <a href="#trial" class="btn btn-primary">Тегін сабақты қолданып көру</a>
+        </div>
+    </div>
+</section>
+
+<!-- Free Trial Section -->
+<section class="trial-section" id="trial">
+    <div class="container">
+        <h2 class="section-title">Пробный сабақ — тегін!</h2>
+        <p class="section-subtitle">Біздің тегін сабағымызға қосылыңыз!<br>Жарқын болашағың үшін қадамды қазірден баста.</p>
+
+        <div class="trial-options">
+            <div class="trial-card">
+                <div class="trial-icon">
+                    <svg viewBox="0 0 24 24" class="icon icon-general">
+                        <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7z"/>
+                        <path d="M12 8v5l4.25 2.52.77-1.28-3.52-2.09V8z"/>
+                    </svg>
+                </div>
+                <h3>General English тегін сынақ сабағы</h3>
+                <a href="https://chat.whatsapp.com/IKLN1EHECrwDjoWlXin0S3" class="btn btn-secondary">Бастау</a>
+            </div>
+
+            <div class="trial-card">
+                <div class="trial-icon">
+                    <svg viewBox="0 0 24 24" class="icon icon-test">
+                        <path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/>
+                        <path d="M9 13h6v2H9zm0-4h4v2H9z"/>
+                    </svg>
+                </div>
+                <h3>Ағылшын тілі деңгейін анықтау</h3>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQK5j8YX405_lVuv_8y3p6V-vols90W5gRUJa6I3GOUPTZBg/viewform" class="btn btn-secondary">Бастау</a>
+            </div>
+
+            <div class="trial-card">
+                <div class="trial-icon">
+                    <svg viewBox="0 0 24 24" class="icon icon-ielts">
+                        <path d="M17 3h-10c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-14c0-1.1-.9-2-2-2zm0 16h-10v-14h10v14z"/>
+                        <path d="M15 9h-6c-.55 0-1 .45-1 1s.45 1 1 1h6c.55 0 1-.45 1-1s-.45-1-1-1z"/>
+                        <path d="M15 12h-6c-.55 0-1 .45-1 1s.45 1 1 1h6c.55 0 1-.45 1-1s-.45-1-1-1z"/>
+                        <path d="M15 15h-6c-.55 0-1 .45-1 1s.45 1 1 1h6c.55 0 1-.45 1-1s-.45-1-1-1z"/>
+                    </svg>
+                </div>
+                <h3>IELTS тегін сынақ сабағы</h3>
+                <a href="https://chat.whatsapp.com/GvjTBpouv1PD1ztRipBsAP" class="btn btn-secondary">Бастау</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Partners Section -->
+<section class="partners-section" id="partners">
+    <div class="container">
+        <h2 class="section-title">СЕРІКТЕСТІК</h2>
+        <p class="section-subtitle">Біздің курс әр түрлі салалардағы озық академиялық беделімен және ғылыми-зерттеу жұмыстарымен танымал елдің жетекші университетімен серіктестік орнатты. Осы серіктестік арқылы біз академиялық қатаңдық пен жоғары білім деңгейіне кепілдік бере аламыз.</p>
+
+        <div class="partners-grid">
+            <div class="partner-logo">
+                <img src="./img/cooperation-img/1_cooperation.svg" alt="SDU University">
+            </div>
+            <div class="partner-logo">
+                <img src="./img/cooperation-img/2_cooperation.svg" alt="CEC">
+            </div>
+            <div class="partner-logo">
+                <img src="./img/cooperation-img/3_cooperation.png" alt="Kundelik KZ">
+            </div>
+            <div class="partner-logo">
+                <img src="./img/cooperation-img/4_cooperation.png" alt="British Council">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section" id="faq">
+    <div class="container">
+        <h2 class="section-title">Жиі қойылатын сұрақтар</h2>
+
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>Қандай оқыту форматы қолданылады (онлайн, оффлайн, гибридті)?</h3>
+                    <div class="accordion-icon"></div>
+                </div>
+                <div class="accordion-content">
+                    <p>Біз студенттерге онлайн және оффлайн оқумен қатар, олардың қалауы мен мүмкіндіктеріне қарай, сабаққа қатысу арасында таңдау жасауға мүмкіндік беретін гибридті форматты да ұсынамыз.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>Курсты аяқтаған жағдайда сертификат болады ма?</h3>
+                    <div class="accordion-icon"></div>
+                </div>
+                <div class="accordion-content">
+                    <p>Иә, курсты сәтті аяқтаған жағдайда сізге сертификат беріледі.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>Мен неге cіздерді таңдауым керек?</h3>
+                    <div class="accordion-icon"></div>
+                </div>
+                <div class="accordion-content">
+                    <p>Бұл ағылшын курсын оның жоғары рейтингтері мен студенттердің оң пікірлері, икемді оқу кестелері және сапалы оқу материалдарына қолжетімділігі үшін таңдаңыз. Сонымен қатар, курс студенттердің белсенді қатысуын және тұрақты куратордың кері байланысын қамтамасыз ете отырып, ағылшын тілін тиімді үйренуге ықпал етеді.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>Бір деңгейді қанша уақытта аяқтаймын?</h3>
+                    <div class="accordion-icon"></div>
+                </div>
+                <div class="accordion-content">
+                    <p>Cабақтың форматына, қарқындылығына және оқушының өзіне байланысты. Beginner мен Elementary -> 2.5 ай, Pre-Intermediate пен Intermediate -> 2.5-3 ай уақытты алады.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <h3>Оқу процессі қалай өтеді?</h3>
+                    <div class="accordion-icon"></div>
+                </div>
+                <div class="accordion-content">
+                    <p>Оқыту Graded readers, Quizlet карточкалары, аудиокітаптар, шақтар таблицасына негізделген. Электрондық материалдар 6 айға қол жетімді. Сондай-ақ Courstore, Zoom платформалары қосымша оқу құралы ретінде қолданылады.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+    <div class="container">
+        <h2 class="section-title">Бізбен қалай байланысуға болады?</h2>
+
+        <div class="contact-info">
+            <div class="address">
+                <div class="address-icon">
+                    <svg viewBox="0 0 24 24" class="icon icon-location">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                </div>
+                <p>SDU University,проспект Абылай хана, 1/1, Каскелен</p>
+            </div>
+        </div>
+
+        <div class="contact-methods">
+            <div class="contact-method">
+                <a href="https://wa.me/77471375756" class="contact-link">
+                    <span>Өту</span>
+                    <svg viewBox="0 0 24 24" class="icon icon-arrow">
+                        <path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"/>
+                    </svg>
+                </a>
+                <div class="contact-method-info">
+                    <div class="contact-method-icon">
+                        <svg viewBox="0 0 24 24" class="icon icon-whatsapp">
+                            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                        </svg>
+                    </div>
+                    <p>WhatsApp</p>
+                </div>
+            </div>
+
+            <div class="contact-method">
+                <a href="https://www.instagram.com/daa.english/" class="contact-link">
+                    <span>Өту</span>
+                    <svg viewBox="0 0 24 24" class="icon icon-arrow">
+                        <path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"/>
+                    </svg>
+                </a>
+                <div class="contact-method-info">
+                    <div class="contact-method-icon">
+                        <svg viewBox="0 0 24 24" class="icon icon-instagram">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </div>
+                    <p>Instagram</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-branding">
+                <div class="footer-logo">
+                    <img src="img/logo.svg" alt="DAA English Logo">
+                </div>
+                <p class="footer-motto">Knowledge is life with wings.</p>
+            </div>
+
+            <div class="footer-nav">
+                <h3 class="footer-heading">Курстар</h3>
+                <ul class="footer-links">
                     <li><a href="#courses">Fresh start</a></li>
                     <li><a href="#courses">Easy start</a></li>
                     <li><a href="#courses">Midway</a></li>
@@ -710,25 +843,30 @@
                     <li><a href="#courses">IELTS</a></li>
                 </ul>
             </div>
-            <div class="contacts-info">
-                <h2>Контакт</h2>
-                <ul>
+
+            <div class="footer-nav">
+                <h3 class="footer-heading">Контакт</h3>
+                <ul class="footer-links">
                     <li><a href="https://wa.me/77471375756">Whatsapp</a></li>
                     <li><a href="https://www.instagram.com/daa.english/">Instagram</a></li>
                 </ul>
             </div>
-            <div class="support">
-                <h2>Қолдау бөлімі</h2>
-                <ul>
-                    <li><a href="#questions">Сұрақ - жауап</a></li>
+
+            <div class="footer-nav">
+                <h3 class="footer-heading">Қолдау бөлімі</h3>
+                <ul class="footer-links">
+                    <li><a href="#faq">Сұрақ - жауап</a></li>
                 </ul>
             </div>
         </div>
-    </footer>
 
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2023 DAA English. Барлық құқықтар қорғалған.</p>
+        </div>
+    </div>
+</footer>
 
-    <script src="js/script.js"></script>
-
+<!-- JavaScript -->
+<script src="js/main.js"></script>
 </body>
-
 </html>
